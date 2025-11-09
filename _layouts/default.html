@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <div>
+      <a href="/index.en.html">🏠 Home</a> |
+      <a href="/about.en.html">About</a>
+    </div>
+    <div class="lang-toggle" id="langToggle">
+      <span id="enBtn" class="{% if page.lang == 'en' %}active{% endif %}">EN</span>
+      <span id="esBtn" class="{% if page.lang == 'es' %}active{% endif %}">ES</span>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    © {{ site.time | date: "%Y" }} Greeks Insight
+  </footer>
+
+  <script src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>
+</body>
+</html>
