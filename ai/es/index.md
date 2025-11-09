@@ -11,5 +11,5 @@ La IA está transformando el análisis financiero, desde el reconocimiento de pa
 
 ### Artículos Clave
 - [Aprendizaje Profundo y Opciones](./deep-learning.es.html)
-- [Entendiendo la Exposición Gamma](gamma_exposure_explained.es.html)
+- [Entendiendo la Exposición Gamma](./gamma_exposure_explained.md)
 - [Versión en Inglés](./index.en.html)
