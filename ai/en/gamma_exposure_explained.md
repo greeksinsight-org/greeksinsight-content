@@ -34,8 +34,8 @@ When traders are **net long options**, dealers become **net short options** (sin
 
 Here’s how that affects price action:
 
-| Market Type     | Dealer Gamma | Dealer Behavior                                | Market Impact          |
-|:----------------|:-------------:|-----------------------------------------------:|:-----------------------:|
+| Market Type     | Dealer Behavior                                         | Market Impact          |
+|:---------------:|:-------------------------------------------------------:|:----------------------:|
 | Positive Gamma  | Dealers hedge **against** the move (buy low, sell high) | Dampens volatility     |
 | Negative Gamma  | Dealers hedge **with** the move (sell low, buy high)    | Amplifies volatility   |
 
@@ -51,19 +51,15 @@ This dynamic means that **the structure of options open interest can determine i
 
 Visualizing these distributions helps identify areas where **hedging flows may reverse** — these are often the **Gamma Walls**.
 
-![Figure 2: Call vs Put Gamma Structure](assets/figure2.png)
+![Figure 2: Call vs Put Gamma Structure](/assets/images/gamma_figure_1.png)
 
 ### Net Gamma Exposure (GEX)
 
 The **Net GEX** combines all call and put gamma to reflect the overall market state.  
 
-> **Net GEX = Σ (Call Gamma × OI × Contract Size) – Σ (Put Gamma × OI × Contract Size)**
+> **Net GEX = Σ (Gamma Exposure Call) – Σ (Gamma Exposure Put)**
 
-Where:  
-- *OI* = Open Interest per strike  
-- *Contract Size* = Multiplier (e.g., 100 for SPX options)
-
-A **positive net GEX** implies that overall hedging flows will **absorb volatility**, as dealers counteract price movements.  
+A **positive Net GEX** implies that overall hedging flows will **absorb volatility**, as dealers counteract price movements.  
 Conversely, a **negative net GEX** indicates **amplified volatility**, as dealer hedging reinforces the trend.
 
 ### Reading the GEX Plot
@@ -71,9 +67,9 @@ Conversely, a **negative net GEX** indicates **amplified volatility**, as dealer
 Plotting the GEX across all strikes gives a “landscape” of market stability zones.  
 Key areas include:
 
-- **Gamma Flip Zone**: The level where total gamma changes from positive to negative. When price crosses this point, volatility tends to increase.  
 - **High Positive GEX Areas**: Markets behave more mean-reverting, and dips are often bought.  
 - **Deep Negative GEX Areas**: Strong directional potential; markets can move aggressively with less resistance.  
+- **Gamma Flip Zone**: The level where total gamma changes from positive to negative. When price crosses this point, volatility tends to increase.  
 
 ### Real-World Usage
 
@@ -82,9 +78,7 @@ Traders, hedge funds, and quant desks monitor daily GEX data to adjust risk and 
 - 0DTE traders combine **GEX + VWAP** to time credit spreads or straddles.  
 - Portfolio managers observe **aggregate GEX shifts** before major expirations (e.g., OPEX days) to gauge potential volatility spikes.
 
-![Figure 3: Net GEX Curve](assets/figure3.png)
-
----
+![Figure 3: Net GEX Figure](/assets/images/gamma_figure_3.png)
 
 ## Key Takeaways
 
