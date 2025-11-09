@@ -7,7 +7,7 @@ permalink: /ai/en/gamma_exposure_explained/
 
 # Understanding Option Gamma Exposure (GEX)
 
-### 1. Introduction
+## 1. Introduction
 
 Gamma Exposure (GEX) is one of the most insightful derivatives of option positioning. It represents how much **market makers’ hedging activity** can push or dampen price movements in the underlying asset.  
 
@@ -26,9 +26,9 @@ In aggregate, all open options positions form the **market’s total Gamma Expos
 
 ---
 
-### 2. Application
+## 2. Application
 
-#### 2.1. Dealer Positioning and Hedging Dynamics
+### Dealer Positioning and Hedging Dynamics
 
 When traders are **net long options**, dealers become **net short options** (since they sold them).  
 - If dealers are **short calls**, they have **negative gamma** exposure.
@@ -36,14 +36,14 @@ When traders are **net long options**, dealers become **net short options** (sin
 
 Here’s how that affects price action:
 
-| Market Type | Dealer Gamma | Dealer Behavior | Market Impact |
-|--------------|--------------|------------------|----------------|
-| Positive Gamma | Dealers hedge **against** the move (buy low, sell high) | Dampens volatility |
-| Negative Gamma | Dealers hedge **with** the move (sell low, buy high) | Amplifies volatility |
+| Market Type     | Dealer Gamma | Dealer Behavior                                | Market Impact          |
+|:----------------|:-------------:|-----------------------------------------------:|:-----------------------:|
+| Positive Gamma  | Dealers hedge **against** the move (buy low, sell high) | Dampens volatility     |
+| Negative Gamma  | Dealers hedge **with** the move (sell low, buy high)    | Amplifies volatility   |
 
 This dynamic means that **the structure of options open interest can determine intraday market stability**.  
 
-#### 2.2. Call and Put Gamma Contributions
+### Call and Put Gamma Contributions
 
 - **Call Gamma**:  
   Arises from open interest in call options. Generally **positive** when above the spot price. High call gamma can create **resistance zones**, since dealers sell underlying to hedge as price rises.
@@ -55,7 +55,7 @@ Visualizing these distributions helps identify areas where **hedging flows may r
 
 ![Figure 2: Call vs Put Gamma Structure](assets/figure2.png)
 
-#### 2.3. Net Gamma Exposure (GEX)
+### Net Gamma Exposure (GEX)
 
 The **Net GEX** combines all call and put gamma to reflect the overall market state.  
 
@@ -68,7 +68,7 @@ Where:
 A **positive net GEX** implies that overall hedging flows will **absorb volatility**, as dealers counteract price movements.  
 Conversely, a **negative net GEX** indicates **amplified volatility**, as dealer hedging reinforces the trend.
 
-#### 2.4. Reading the GEX Curve
+### Reading the GEX Plot
 
 Plotting the GEX across all strikes gives a “landscape” of market stability zones.  
 Key areas include:
@@ -77,18 +77,18 @@ Key areas include:
 - **High Positive GEX Areas**: Markets behave more mean-reverting, and dips are often bought.  
 - **Deep Negative GEX Areas**: Strong directional potential; markets can move aggressively with less resistance.  
 
-#### 2.5. Real-World Usage
+### Real-World Usage
 
 Traders, hedge funds, and quant desks monitor daily GEX data to adjust risk and bias:
 - SPX and SPY traders use **Gamma Walls** as intraday targets or barriers.  
 - 0DTE traders combine **GEX + VWAP** to time credit spreads or straddles.  
 - Portfolio managers observe **aggregate GEX shifts** before major expirations (e.g., OPEX days) to gauge potential volatility spikes.
 
-![Figure 3: Net GEX Curve and Market Impact](assets/figure3.png)
+![Figure 3: Net GEX Curve](assets/figure3.png)
 
 ---
 
-### 3. Key Takeaways
+## 3. Key Takeaways
 
 - **Gamma Exposure** reflects how dealer hedging behavior can either dampen or amplify market volatility.  
 - **Positive GEX** = Calm, mean-reverting environment.  
