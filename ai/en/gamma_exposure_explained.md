@@ -7,7 +7,7 @@ permalink: /ai/en/gamma_exposure_explained/
 
 # Understanding Option Gamma Exposure (GEX)
 
-## 1. Introduction
+## Introduction
 
 Gamma Exposure (GEX) is one of the most insightful derivatives of option positioning. It represents how much **market makers’ hedging activity** can push or dampen price movements in the underlying asset.  
 
@@ -24,9 +24,7 @@ In aggregate, all open options positions form the **market’s total Gamma Expos
 
 ![Figure 1: Gamma Exposure Overview](/assets/images/gamma_figure_1.png)
 
----
-
-## 2. Application
+## Application
 
 ### Dealer Positioning and Hedging Dynamics
 
@@ -88,7 +86,7 @@ Traders, hedge funds, and quant desks monitor daily GEX data to adjust risk and 
 
 ---
 
-## 3. Key Takeaways
+## Key Takeaways
 
 - **Gamma Exposure** reflects how dealer hedging behavior can either dampen or amplify market volatility.  
 - **Positive GEX** = Calm, mean-reverting environment.  
