@@ -2,7 +2,7 @@
 layout: default
 title: Gamma Exposure
 lang: en
-permalink: /ai/en/gamma_exposure_explained/
+permalink: /ai/en/
 ---
 
 # Understanding Option Gamma Exposure (GEX)
