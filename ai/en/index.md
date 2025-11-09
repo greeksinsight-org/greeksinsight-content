@@ -9,6 +9,6 @@ permalink: /ai/en/
 
 Explore how AI models and neural networks drive financial and trading insights.
 
-- [Deep Learning and Options](./deep-learning.en.html)
-- [Gamma Exposure Explained](gamma_exposure_explained.md)
+- [Deep Learning and Options](./deep-learning.md)
+- [Gamma Exposure Explained](gamma_exposure_explained.en.html)
 - [Spanish Version](./index.es.html)
