@@ -22,7 +22,7 @@ Gamma tells us **how sensitive Delta is to price movements**. A high Gamma means
 
 In aggregate, all open options positions form the **market’s total Gamma Exposure (GEX)**. Understanding where this exposure lies helps anticipate how market makers’ hedging could influence price direction and volatility.
 
-![Figure 1: Gamma Exposure Overview](assets/images/gamma_figure_1.png)
+![Figure 1: Gamma Exposure Overview](/assets/images/gamma_figure_1.png)
 
 ---
 
