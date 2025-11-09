@@ -2,6 +2,7 @@
 layout: default
 title: Inteligencia Artificial
 lang: es
+permalink: /ai/es/
 ---
 
 # 🤖 Inteligencia Artificial

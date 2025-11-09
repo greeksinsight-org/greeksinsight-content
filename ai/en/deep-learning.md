@@ -2,6 +2,7 @@
 layout: default
 title: Deep Learning and Options
 lang: en
+permalink: /ai/en/deep-learning/
 ---
 
 # Deep Learning and Options

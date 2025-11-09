@@ -2,6 +2,7 @@
 layout: default
 title: Aprendizaje Profundo y Opciones
 lang: es
+permalink: /ai/es/deep-learning/
 ---
 
 # Aprendizaje Profundo y Opciones
