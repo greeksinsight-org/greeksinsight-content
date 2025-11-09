@@ -1,13 +1,15 @@
 ---
 layout: default
 title: Home
-lang: en
 permalink: /
 ---
 
-<script>
-  // Redirect to English by default
-  window.location.href = "/index.en.html";
-</script>
+# 🌍 Welcome to Greeks Insight
 
-If you are not redirected automatically, click [here](./index.en.html).
+Explore deep-dive articles across three knowledge domains:
+
+- 🤖 [Artificial Intelligence](./ai/index.en.html)
+- 📊 [Trading & Options](./trading/index.en.html)
+- ☁️ [Cloud & AI Infrastructure](./cloud/index.en.html)
+
+> Choose a topic above or switch language using the toggle in the header.

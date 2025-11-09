@@ -1,0 +1,6 @@
+title: Greeks Insight
+description: AI, Trading, and Cloud Insights
+markdown: kramdown
+sass:
+  style: compressed
+permalink: pretty

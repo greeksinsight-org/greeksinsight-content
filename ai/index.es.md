@@ -1,0 +1,13 @@
+---
+layout: default
+title: Inteligencia Artificial
+lang: es
+---
+
+# 🤖 Inteligencia Artificial
+
+La IA está transformando el análisis financiero, desde el reconocimiento de patrones hasta el trading predictivo.
+
+### Artículos Clave
+- [Aprendizaje Profundo y Opciones](./deep-learning.es.html)
+- [Versión en Inglés](./index.en.html)
