@@ -1,12 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
   const enBtn = document.getElementById("enBtn");
   const esBtn = document.getElementById("esBtn");
-  const currentLang = document.documentElement.lang;
+  const currentLang = document.documentElement.lang || "en"; // fallback
 
   function redirectTo(lang) {
     const path = window.location.pathname;
-    const newPath = path.replace(/(\.en|\.es)?\.html/, `.${lang}.html`);
-    window.location.href = newPath;
+
+    // only redirect if not already on target page
+    if (!path.includes(`.${lang}.html`) && !path.endsWith(`/${lang}/`)) {
+      const newPath = path.replace(/(\.en|\.es)?\.html/, `.${lang}.html`);
+      window.location.href = newPath;
+    }
   }
 
   enBtn?.addEventListener("click", () => {
@@ -19,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     redirectTo("es");
   });
 
-  // Auto-redirect based on last selection
+  // auto-redirect based on last selection, only if needed
   const savedLang = localStorage.getItem("lang");
   if (savedLang && savedLang !== currentLang) {
     redirectTo(savedLang);
