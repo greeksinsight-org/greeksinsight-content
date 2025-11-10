@@ -9,8 +9,7 @@ permalink: /
 
 Explore deep-dive articles across three knowledge domains:
 
-- 🤖 [Artificial Intelligence](/ai/)
-- 📊 [Trading & Options](/trading/)
-- ☁️ [Cloud & AI Infrastructure](/cloud/)
+- 🤖 [Help](/help/)
+- 📊 [Knowledge Base](/knowledge/)
 
 > Choose a topic above or switch language using the toggle in the header.

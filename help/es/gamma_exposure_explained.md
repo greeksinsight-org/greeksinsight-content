@@ -2,8 +2,7 @@
 layout: default
 title: Gamma Exposure
 lang: es
-permalink: /ai/es/gamma_exposure_explained
----
+permalink: /help/es/gamma_exposure_explained
 ---
 
 # Entendiendo la Exposición Gamma (GEX)
@@ -58,9 +57,9 @@ La **Gamma Neta** combina las exposiciones de calls y puts para describir el est
 ### Lectura de la Gráfica de GEX
 
 Al graficar la gamma total por strike, obtenemos una "visión" del mercado, que nos permite ver zonas claves:
-- **Zona de Giro de Gamma**: Donde la exposición pasa de positiva a negativa, aumentando la volatilidad.  
 - **Áreas de GEX Positivo**: Favorecen mercados estables y retrocesos comprados.  
 - **Áreas de GEX Negativo**: Señalan posible comportamiento direccional o “momentum”.
+- **Zona de Giro de Gamma**: Donde la exposición pasa de positiva a negativa, aumentando la volatilidad.  
 
 ### Uso en la Práctica
 

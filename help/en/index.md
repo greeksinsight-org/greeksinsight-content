@@ -2,7 +2,7 @@
 layout: default
 title: Artificial Intelligence
 lang: en
-permalink: /ai/en/
+permalink: /help/en/
 ---
 
 # 🤖 Artificial Intelligence
