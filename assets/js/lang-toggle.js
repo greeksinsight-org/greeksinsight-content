@@ -7,13 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let pathParts = window.location.pathname.split("/").filter(Boolean);
     // Example: ["ai", "es", "gamma_exposure_explained"]
 
+    // Find existing language folder
     const langIndex = pathParts.findIndex((p) => p === "en" || p === "es");
 
     if (langIndex !== -1) {
-      // Replace existing language folder
-      pathParts[langIndex] = lang;
+      pathParts[langIndex] = lang; // Replace
     } else {
-      // Insert language after the first folder (like "ai")
+      // Insert language folder after topic (like "ai")
       if (pathParts.length > 0) {
         pathParts.splice(1, 0, lang);
       } else {
@@ -21,7 +21,13 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
 
-    const newPath = "/" + pathParts.join("/");
+    let newPath = "/" + pathParts.join("/");
+
+    // ✅ Add trailing slash ONLY if the path ends in language folder
+    if (newPath.match(/\/(en|es)$/)) {
+      newPath += "/";
+    }
+
     if (window.location.pathname !== newPath) {
       window.location.href = newPath;
     }
