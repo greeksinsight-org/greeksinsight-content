@@ -9,7 +9,7 @@ permalink: /
 
 Explore deep-dive articles across three knowledge domains:
 
-- 🤖 [Help](/help/)
+- 🤖 [Help](/help/en/)
 - 📊 [Knowledge Base](/knowledge/)
 
 > Choose a topic above or switch language using the toggle in the header.
