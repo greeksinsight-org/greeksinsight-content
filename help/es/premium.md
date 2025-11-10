@@ -12,7 +12,7 @@ permalink: /help/es/premium
 Las **primas de opciones** representan el precio que paga el trader por adquirir el derecho de comprar o vender el subyacente.  
 El equilibrio entre las **primas de compra (ask)**, **venta (bid)** y el **flujo total** permite evaluar la **presión de demanda y la agresividad del mercado**.
 
-![Figura 1: Ejemplo de Flujo de Primas Bid/Ask](assets/figure1.png)
+![Figura 1: Ejemplo de Flujo de Primas Bid/Ask](/assets/images/premium_1.png)
 
 ## 2. Aplicación
 
@@ -31,7 +31,7 @@ Interpretación:
 - Ratio < 1 → Sesgo alcista (mayor demanda de calls).  
 - Ratio > 1 → Sesgo bajista (mayor demanda de puts).
 
-![Figura 2: Ratio de Primas y Sentimiento de Mercado](assets/figure2.png)
+![Figura 2: Ratio de Primas y Sentimiento de Mercado](/assets/images/.png)
 
 ## 3. Puntos Clave
 
@@ -39,3 +39,5 @@ Interpretación:
 - Lado ask dominante = **compradores agresivos**; lado bid = **vendedores cautelosos**.  
 - El PCR basado en primas da una lectura más precisa del **sentimiento institucional**.  
 - Combinado con volumen e IV, permite anticipar **cambios en la demanda de cobertura**.
+
+[← Ir a Indice](./index.md)

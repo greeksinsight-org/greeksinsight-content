@@ -10,6 +10,7 @@ permalink: /help/es/
 Ayuda
 
 ## Artículos Clave
+
 - [Entendiendo la Exposición Gamma](./gamma_exposure_explained.md)
 - [Max Pain](./max_pain.md)
 - [Volumen](./volume.md)
@@ -19,4 +20,5 @@ Ayuda
 - [Superficie 3D GEX Neta](./gex_3d.md)
 - [Premium](./premium.md)
 - [Gamma Calls, Puts, Volatilidad Implícita & Evolución del Precio](./active_trader.md)
+
 - [Versión en Inglés](../en/index.md)

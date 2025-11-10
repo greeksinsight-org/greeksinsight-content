@@ -15,7 +15,7 @@ It’s derived from option prices using models like **Black-Scholes**, but inste
 High IV means options are expensive because traders expect larger moves; low IV means options are cheaper, implying calmer markets.  
 Importantly, IV does not predict direction — it reflects **magnitude of expected movement**.
 
-![Figure 1: Implied Volatility Surface](assets/figure1.png)
+![Figure 1: Implied Volatility](/assets/images/implied_volatility_1.png)
 
 ## 2. Application
 
@@ -44,7 +44,7 @@ Interpretation:
 Comparing **implied vs realized volatility** (actual price movement) helps traders gauge if options are **overpriced** or **underpriced**.  
 Persistent IV > Realized Vol means markets overpay for protection, common in indices.  
 
-![Figure 2: IV Skew and Term Structure](assets/figure2.png)
+![Figure 2: IV Skew](assets/.png)
 
 ## 3. Key Takeaways
 
@@ -53,3 +53,5 @@ Persistent IV > Realized Vol means markets overpay for protection, common in ind
 - Use IV Rank and IV Percentile to evaluate **option value and timing**.  
 - Comparing IV to Realized Volatility helps detect **overpriced premiums**.  
 - IV structure (smile/skew) reveals **fear asymmetry** in the market.
+
+[← Back to Help Index](./index.md)

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Superficie 3D GEX Neta
-lang: es
-permalink: /help/es/gex_3d
+lang: en
+permalink: /help/en/gex_3d
 ---
 
 # 3D Net Gamma Exposure Surface
@@ -14,7 +14,7 @@ Instead of a single snapshot, it shows a **dynamic landscape** of how the market
 
 This visualization helps traders see **zones of positive and negative gamma**, revealing where dealers are **absorbing** or **amplifying** price volatility.
 
-![Figure 1: 3D Gamma Exposure Surface Overview](assets/figure1.png)
+![Figure 1: 3D Gamma Exposure Surface Overview](/assets/images/gex_3d_1.png)
 
 ## 2. Application
 
@@ -39,7 +39,7 @@ Traders use it to:
 - Detect **GEX inflection zones** where market behavior may flip.  
 - Combine with **implied volatility and volume data** to gauge dealer positioning pressure.
 
-![Figure 2: Gamma Surface Regimes Visualization](assets/figure2.png)
+![Figure 2: Gamma Surface Regimes Visualization](/assets/images/gex_3d_2.png)
 
 ## 3. Key Takeaways
 
@@ -47,3 +47,5 @@ Traders use it to:
 - Negative gamma zones often align with **high-volatility selloffs** or **sharp reversals**.  
 - Tracking GEX shifts across expirations helps anticipate **liquidity absorption vs. release**.  
 - A steep gradient near spot suggests **sensitivity to hedging flows** and potential **gamma-driven swings**.
+
+[← Back to Help Index](./index.md)

@@ -12,7 +12,7 @@ permalink: /help/es/gex_3d
 La **superficie 3D de Exposición Neta de Gamma (GEX)** muestra cómo varía la exposición de los dealers según el **precio de ejercicio, el tiempo hasta el vencimiento y la volatilidad implícita**.  
 Más que un valor puntual, es una representación espacial del **impacto de las coberturas** sobre la dinámica del mercado.
 
-![Figura 1: Vista general de la Superficie 3D GEX](assets/figure1.png)
+![Figura 1: Vista general de la Superficie 3D GEX](/assets/images/gex_3d_1.png)
 
 ## 2. Aplicación
 
@@ -31,7 +31,7 @@ Interpretación:
 
 El gradiente de la superficie permite anticipar **zonas de transición** y **picos de riesgo**.
 
-![Figura 2: Visualización de Regímenes Gamma](assets/figure2.png)
+![Figura 2: Visualización de Regímenes Gamma](/assets/images/gex_3d_2.png)
 
 ## 3. Puntos Clave
 
@@ -39,3 +39,5 @@ El gradiente de la superficie permite anticipar **zonas de transición** y **pic
 - Zonas de gamma negativa tienden a coincidir con **caídas violentas o movimientos extremos**.  
 - Su seguimiento por vencimientos ayuda a prever **momentos de liberación o absorción de liquidez**.  
 - Un gradiente pronunciado cerca del spot indica **alta sensibilidad a coberturas gamma**.
+
+[← Ir a Indice](./index.md)

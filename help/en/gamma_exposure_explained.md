@@ -22,7 +22,7 @@ Gamma tells us **how sensitive Delta is to price movements**. A high Gamma means
 
 In aggregate, all open options positions form the **market’s total Gamma Exposure (GEX)**. Understanding where this exposure lies helps anticipate how market makers’ hedging could influence price direction and volatility.
 
-![Figure 1: Gamma Exposure Overview](/assets/images/gamma_figure_1.png)
+![Figure 1: Gamma Exposure](/assets/images/gamma_exposure_explained_2.png)
 
 ## 2. Application
 
@@ -51,7 +51,7 @@ This dynamic means that **the structure of options open interest can determine i
 
 Visualizing these distributions helps identify areas where **hedging flows may reverse** — these are often the **Gamma Walls**.
 
-![Figure 2: Call vs Put Gamma Structure](/assets/images/gamma_figure_1.png)
+![Figure 2: Call vs Put Gamma Structure](/assets/images/gamma_exposure_explained_1.png)
 
 ### Net Gamma Exposure (GEX)
 
@@ -78,7 +78,7 @@ Traders, hedge funds, and quant desks monitor daily GEX data to adjust risk and 
 - 0DTE traders combine **GEX + VWAP** to time credit spreads or straddles.  
 - Portfolio managers observe **aggregate GEX shifts** before major expirations (e.g., OPEX days) to gauge potential volatility spikes.
 
-![Figure 3: Net GEX Figure](/assets/images/gamma_figure_3.png)
+![Figure 3: Net GEX Figure](/assets/images/.png)
 
 ## 3. Key Takeaways
 
@@ -89,4 +89,4 @@ Traders, hedge funds, and quant desks monitor daily GEX data to adjust risk and 
 - Tracking **daily GEX updates** provides an edge in timing volatility shifts, especially for **SPX, SPY, or QQQ** traders.  
 - For intraday and 0DTE strategies, combining GEX with **VWAP, Delta positioning, and open interest maps** can reveal high-probability trade zones.
 
-[← Back to AI Index](./index.md)
+[← Back to Help Index](./index.md)

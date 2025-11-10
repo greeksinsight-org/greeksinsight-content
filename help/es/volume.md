@@ -13,7 +13,7 @@ El **volumen de opciones** muestra cuántos contratos se negocian en una sesión
 Es un indicador clave de la **actividad, liquidez y sentimiento** del mercado.  
 Analizar el volumen de **calls y puts** permite identificar sesgos alcistas o bajistas.
 
-![Figura 1: Volumen de Calls vs Puts](assets/figure1.png)
+![Figura 1: Volumen de Calls vs Puts](/assets/images/volume_1.png)
 
 ## 2. Aplicación
 
@@ -30,10 +30,12 @@ Interpretación:
 
 Combinado con el **Open Interest**, el volumen ayuda a distinguir si las posiciones son **nuevas** o **cerradas**.
 
-![Figura 2: Ratio Put/Call y Sentimiento del Mercado](assets/figure2.png)
+![Figura 2: Ratio Put/Call y Sentimiento del Mercado](/assets/images/.png)
 
 ## 3. Puntos Clave
 
 - El volumen refleja la **intensidad del flujo del mercado**.  
 - Más volumen en calls → tono alcista; más en puts → tono defensivo.  
 - Su análisis conjunto con **interés abierto e IV** mejora la lectura del mercado.
+
+[← Ir a Indice](./index.md)

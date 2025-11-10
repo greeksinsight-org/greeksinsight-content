@@ -12,7 +12,7 @@ permalink: /help/es/max_pain
 El concepto de **Max Pain** indica el precio de ejercicio donde la **pérdida total de calls y puts** es máxima.  
 Se le conoce como el “**imán del vencimiento**”, porque el precio del activo tiende a acercarse a ese nivel cuando se aproximan las expiraciones, debido a los ajustes de cobertura y cierres de posiciones de los dealers.
 
-![Figura 1: Concepto de Max Pain](assets/figure1.png)
+![Figura 1: Concepto de Max Pain](/assets/images/max_pain_1.png)
 
 ## 2. Aplicación
 
@@ -26,10 +26,12 @@ Interpretación:
 - Si el precio está **por encima** del Max Pain → los compradores de calls ganan.  
 - En las horas previas al vencimiento, el precio puede tender hacia esa zona.
 
-![Figura 2: Ejemplo de Curva Max Pain](assets/figure2.png)
+![Figura 2: Ejemplo de Curva Max Pain](/assets/images/.png)
 
 ## 3. Puntos Clave
 
 - El Max Pain muestra dónde el **mercado tiende a estabilizarse** cerca del vencimiento.  
 - Ayuda a identificar **niveles de atracción del precio**.  
 - No es una señal de entrada directa, sino una **referencia de equilibrio** entre calls y puts.
+
+[← Ir a Indice](./index.md)

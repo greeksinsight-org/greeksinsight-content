@@ -13,7 +13,7 @@ permalink: /help/en/volume
 It reflects **trader activity**, **sentiment**, and **short-term liquidity** in the options market.  
 Analyzing call and put volume helps identify whether traders are leaning bullish, bearish, or neutral.
 
-![Figure 1: Call vs Put Volume Overview](assets/figure1.png)
+![Figure 1: Call vs Put Volume](/assets/images/volume_1.png)
 
 ## 2. Application
 
@@ -30,10 +30,12 @@ Interpretation:
 
 Combining **volume trends** with **open interest** shows whether new positions are being **opened** or **closed**, improving signal accuracy.
 
-![Figure 2: Volume Ratio and Market Sentiment](assets/figure2.png)
+![Figure 2: Volume Ratio and Market Sentiment](/assets/images/.png)
 
 ## 3. Key Takeaways
 
 - Volume shows **participation and conviction**.  
 - Rising call volume = bullish tone; rising put volume = defensive tone.  
 - Use in combination with **open interest** and **implied volatility** for best context.
+
+[← Back to Help Index](./index.md)

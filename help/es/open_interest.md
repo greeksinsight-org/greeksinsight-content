@@ -14,7 +14,7 @@ A diferencia del volumen, que mide la actividad diaria, el OI muestra el **compr
 
 Analizar el OI de calls y puts permite identificar **zonas de soporte y resistencia**, así como el **posicionamiento de los dealers**.
 
-![Figura 1: Distribución del Interés Abierto](assets/figure1.png)
+![Figura 1: Distribución del Interés Abierto](/assets/images/open_interest_1.png)
 
 ## 2. Aplicación
 
@@ -36,7 +36,7 @@ Estos niveles son críticos porque reflejan los puntos donde los dealers deben *
 
 Un aumento significativo de OI antes del vencimiento puede **anclar el precio** cerca de ciertos strikes, fenómeno conocido como **pinning** o “precio imán”.
 
-![Figura 2: Mapa de OI y Zonas Clave](assets/figure2.png)
+![Figura 2: Mapa de OI y Zonas Clave](/assets/images/.png)
 
 ## 3. Puntos Clave
 
@@ -44,3 +44,5 @@ Un aumento significativo de OI antes del vencimiento puede **anclar el precio** 
 - Las concentraciones de OI definen **niveles de soporte/resistencia**.  
 - Combinar OI con **volumen y GEX** mejora la lectura de flujos.  
 - Reducciones bruscas de OI post-vencimiento pueden causar **saltos de volatilidad**.
+
+[← Ir a Indice](./index.md)

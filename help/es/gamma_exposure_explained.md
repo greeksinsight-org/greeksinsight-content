@@ -19,7 +19,7 @@ Matemáticamente:
 
 La gamma indica **qué tan rápido cambia el delta de una opción** cuando el precio del activo varía. Si la gamma es alta, los dealers deben ajustar con mayor frecuencia sus coberturas, generando efectos visibles en la acción del precio.
 
-![Figure 1: Gamma Exposure Overview](/assets/images/gamma_figure_1.png)
+![Figure 1: Gamma Exposure Overview](/assets/images/gamma_exposure_explained_2.png)
 
 ## 2. Aplicación
 
@@ -43,7 +43,7 @@ Por eso, **la estructura de posiciones abiertas de opciones puede definir la est
 - **Gamma de Puts**:  
   Normalmente negativa, sobre todo por debajo del precio actual. Si hay gran concentración de puts, esos niveles tienden a ser **soporte**, porque los dealers compran subyacente al caer el precio.
 
-![Figure 2: Call vs Put Gamma Structure](/assets/images/gamma_figure_1.png)
+![Figure 2: Call vs Put Gamma Structure](/assets/images/gamma_exposure_explained_1.png)
 
 ### Gamma Neta (GEX)
 
@@ -68,7 +68,7 @@ Los analistas cuantitativos y traders usan la GEX diariamente para ajustar su se
 - Los traders 0DTE combinan **GEX + VWAP** para encontrar puntos óptimos de entrada en spreads o straddles.  
 - Los gestores institucionales analizan **cambios en la GEX** antes de los vencimientos grandes (*OPEX*) para anticipar aumentos de volatilidad.
 
-![Figure 3: Net GEX Figure](/assets/images/gamma_figure_3.png)
+![Figure 3: Net GEX Figure](/assets/images/.png)
 
 ## 3. Puntos Clave
 
@@ -79,5 +79,4 @@ Los analistas cuantitativos y traders usan la GEX diariamente para ajustar su se
 - Monitorear la **GEX diaria** ofrece una ventaja en estrategias intradía y de **vencimiento 0DTE**, especialmente en índices como SPX o QQQ.  
 - Integrar GEX con métricas como **VWAP, Delta y Open Interest** ayuda a identificar zonas de alta probabilidad para la toma de decisiones.
 
-
-[← Back to AI Index](./index.md)
+[← Ir a Indice](./index.md)

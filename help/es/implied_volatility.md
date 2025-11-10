@@ -15,7 +15,7 @@ No predice el futuro, sino que refleja **cuánta volatilidad está descontando e
 Cuando la IV es alta, las opciones son más caras, reflejando un entorno incierto.  
 Cuando la IV es baja, el mercado espera estabilidad y las primas son más baratas.
 
-![Figura 1: Superficie de Volatilidad Implícita](assets/figure1.png)
+![Figura 1: Superficie de Volatilidad Implícita](/assets/images/implied_volatility_1.png)
 
 ## 2. Aplicación
 
@@ -40,7 +40,7 @@ Interpretación práctica:
 
 Si la IV se mantiene **por encima de la volatilidad realizada**, significa que los inversores **sobrepagan por cobertura**, lo cual es común en índices grandes como SPX.
 
-![Figura 2: Estructura y Skew de IV](assets/figure2.png)
+![Figura 2: Estructura y Skew de IV](/assets/images/.png)
 
 ## 3. Puntos Clave
 
@@ -49,3 +49,5 @@ Si la IV se mantiene **por encima de la volatilidad realizada**, significa que l
 - IVR e IVP ayudan a detectar si las opciones están **caras o baratas**.  
 - Comparar IV vs Volatilidad Realizada mejora el timing de estrategias.  
 - La estructura de IV revela el **sesgo psicológico** del mercado.
+
+[← Ir a Indice](./index.md)

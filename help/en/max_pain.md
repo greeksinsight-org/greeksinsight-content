@@ -14,7 +14,7 @@ It’s often referred to as the “**option expiration magnet**,” as the marke
 
 The concept comes from observing that **most options expire worthless**, and market makers aim to minimize their payout obligations.
 
-![Figure 1: Max Pain](assets/figure1.png)
+![Figure 1: Max Pain](/assets/images/max_pain_1.png)
 
 ## 2. Application
 
@@ -29,10 +29,12 @@ Practical insights:
 - When the market trades **above** Max Pain → more call holders are in profit.  
 - As expiration approaches, price often moves closer to the Max Pain zone.
 
-![Figure 2: Max Pain Curve Example](assets/figure2.png)
+![Figure 2: Max Pain Curve](/assets/images/.png)
 
 ## 3. Key Takeaways
 
 - Max Pain is a **price magnet** near expiration caused by **option decay and dealer hedging**.  
 - It helps traders identify **potential pinning levels** for the underlying asset.  
 - It’s not a predictive signal but an **informational bias** — prices may “drift” toward Max Pain if liquidity and hedging flows align.
+
+[← Back to Help Index](./index.md)
