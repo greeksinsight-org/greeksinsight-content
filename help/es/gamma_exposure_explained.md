@@ -7,7 +7,7 @@ permalink: /help/es/gamma_exposure_explained
 
 # Entendiendo la Exposición Gamma (GEX)
 
-## Introducción
+## 1. Introducción
 
 La Exposición Gamma (GEX) es uno de los indicadores más útiles en el análisis de opciones, ya que muestra cómo la **actividad de cobertura de los creadores de mercado (dealers)** puede influir en la dirección y volatilidad del precio del activo subyacente.  
 
@@ -21,7 +21,7 @@ La gamma indica **qué tan rápido cambia el delta de una opción** cuando el pr
 
 ![Figure 1: Gamma Exposure Overview](/assets/images/gamma_figure_1.png)
 
-## Aplicación
+## 2. Aplicación
 
 ### Posicionamiento y Cobertura de los Dealers
 
@@ -70,7 +70,7 @@ Los analistas cuantitativos y traders usan la GEX diariamente para ajustar su se
 
 ![Figure 3: Net GEX Figure](/assets/images/gamma_figure_3.png)
 
-## Puntos Clave
+## 3. Puntos Clave
 
 - La Exposición Gamma muestra cómo los dealers influyen activamente en la **volatilidad y dirección del mercado**.  
 - **GEX positiva** = Mercado estable, reversiones frecuentes.  
