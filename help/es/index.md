@@ -21,4 +21,4 @@ Ayuda
 - [Premium](./premium.md)
 - [Gamma Calls, Puts, Volatilidad Implícita & Evolución del Precio](./active_trader.md)
 
-- [Versión en Inglés](../en/index.md)
+[Versión en Inglés](../en/index.md)

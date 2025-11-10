@@ -5,7 +5,7 @@ lang: es
 permalink: /help/es/implied_volatility
 ---
 
-# Implied Volatility — Calls & Puts
+# Volatilidad Implícita — Calls & Puts
 
 ## 1. Introducción
 

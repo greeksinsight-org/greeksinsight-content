@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Open Interest
+title: Interés Abierto
 lang: es
 permalink: /help/es/open_interest
 ---
 
-# Open Interest — Calls & Puts
+# Interés Abierto — Calls & Puts
 
 ## 1. Introducción
 
