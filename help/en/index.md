@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Artificial Intelligence
+title: Help
 lang: en
 permalink: /help/en/
 ---
 
-# 🤖 Artificial Intelligence
+# 🤖 Help
 
-Explore how AI models and neural networks drive financial and trading insights.
+Help
 
+## Key Articles
 - [Gamma Exposure Explained](./gamma_exposure_explained.md)
 - [Spanish Version](../es/index.md)
