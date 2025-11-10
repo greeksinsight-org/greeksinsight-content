@@ -5,16 +5,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function redirectTo(lang) {
     let pathParts = window.location.pathname.split("/").filter(Boolean);
-    // Example: ["ai", "es", "gamma_exposure_explained"]
+    // Example: ["ai", "en", "gamma_exposure_explained"]
 
-    // Find the language folder ("en" or "es")
+    // Find if current path already contains a language segment
     const langIndex = pathParts.findIndex((p) => p === "en" || p === "es");
 
     if (langIndex !== -1) {
-      // Replace existing language folder
+      // Replace the current language with the target language
       pathParts[langIndex] = lang;
     } else {
-      // Insert "lang" after the first folder (like "ai")
+      // If no language folder, insert after the first segment (topic)
       if (pathParts.length > 0) {
         pathParts.splice(1, 0, lang);
       } else {
@@ -22,7 +22,13 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
 
-    const newPath = "/" + pathParts.join("/") + "/";
+    let newPath = "/" + pathParts.join("/");
+
+    // ✅ Add trailing slash ONLY for language folders like "/ai/en" or "/ai/es"
+    if (newPath.endsWith("/en") || newPath.endsWith("/es")) {
+      newPath += "/";
+    }
+
     if (window.location.pathname !== newPath) {
       window.location.href = newPath;
     }
