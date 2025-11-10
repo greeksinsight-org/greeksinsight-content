@@ -2,10 +2,10 @@
 layout: default
 title: Home
 lang: en
-permalink: /
+permalink: /en/
 ---
 
-# 🌍 Welcome to GreeksInsight - HOME
+# 🌍 Welcome to GreeksInsight
 
 Explore deep-dive articles across knowledge domains:
 
