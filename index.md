@@ -5,11 +5,11 @@ lang: en
 permalink: /
 ---
 
-# 🌍 Welcome to Greeks Insight
+# 🌍 Welcome to GreeksInsight
 
 Explore deep-dive articles across three knowledge domains:
 
-- 🤖 [Help](/help/)
+- 🤖 [Help](/ai/)
 - 📊 [Knowledge Base](/knowledge/)
 
 > Choose a topic above or switch language using the toggle in the header.
