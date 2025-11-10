@@ -4,13 +4,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentLang = document.documentElement.lang || "en";
 
   function redirectTo(lang) {
-    let pathParts = window.location.pathname.split("/").filter(p => p);
+    let pathParts = window.location.pathname.split("/").filter(Boolean);
+    // Example pathParts: ["ai", "es", "gamma_exposure_explained"]
 
-    // Replace last part if it's a language folder
-    if (pathParts[pathParts.length - 1].match(/^(en|es)$/)) {
-      pathParts[pathParts.length - 1] = lang;
+    // Find if "en" or "es" exists after "ai"
+    const aiIndex = pathParts.indexOf("ai");
+    if (aiIndex !== -1 && pathParts.length > aiIndex + 1 && ["en", "es"].includes(pathParts[aiIndex + 1])) {
+      // Replace existing language folder
+      pathParts[aiIndex + 1] = lang;
     } else {
-      pathParts.push(lang);
+      // Fallback if no language folder — append it
+      pathParts.splice(aiIndex + 1, 0, lang);
     }
 
     const newPath = "/" + pathParts.join("/") + "/";
