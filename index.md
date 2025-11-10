@@ -5,7 +5,7 @@ lang: en
 permalink: /
 ---
 
-# 🌍 Welcome to GreeksInsight - HOME
+# 🌍 Welcome to GreeksInsight
 
 Explore deep-dive articles across knowledge domains:
 
