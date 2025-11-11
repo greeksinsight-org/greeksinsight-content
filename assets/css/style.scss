@@ -2,14 +2,16 @@
 # Jekyll front matter so GitHub compiles SCSS
 ---
 
-$primary-color: #0d6efd;
-$bg-color: #f9fafc;
+$primary-color: #a07ce7;
+$bg-color: #181819;
 $font-stack: 'Inter', 'Segoe UI', sans-serif;
+$table-border: rgba(255, 255, 255, 0.1);
+$table-hover: rgba(13, 110, 253, 0.15);
 
 body {
   font-family: $font-stack;
   background-color: $bg-color;
-  color: #222;
+  color: #cbbcbc;
   margin: 2rem auto;
   max-width: 800px;
   line-height: 1.6;
@@ -27,37 +29,69 @@ a {
   }
 }
 
+/* === Dark Neon Header Theme === */
 header {
+  background-color: #0b0c10;
+  padding: 0.8rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: white;
-  padding: 0.5rem 1rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  margin-bottom: 2rem;
+  border-bottom: 2px solid #1f2833;
+  box-shadow: 0 0 10px #a07ce7;
 }
 
+/* Navigation Links */
+header nav {
+  display: flex;
+  gap: 1.5rem;
+
+  a {
+    color: #8164bc;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #a07ce7;
+      text-shadow: 0 0 8px #a07ce7;
+    }
+  }
+}
+
+/* Language Toggle */
 .lang-toggle {
-  display: inline-flex;
-  align-items: center;
-  background: #e9f0ff;
-  border-radius: 999px;
-  cursor: pointer;
-  overflow: hidden;
-  font-size: 0.9rem;
-  user-select: none;
+  display: flex;
+  gap: 0.8rem;
+  color: #a07ce7;
+  font-weight: 600;
 
   span {
-    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
     transition: all 0.3s ease;
-  }
 
-  .active {
-    background: $primary-color;
-    color: white;
+    &:hover {
+      background-color: #8164bc;
+      color: #0b0c10;
+      box-shadow: 0 0 6px #8164bc;
+    }
+
+    &.active {
+      background-color: #a07ce7;
+      color: #0b0c10;
+      box-shadow: 0 0 8px #a07ce7;
+    }
   }
 }
+
+/* Optional: Sticky Header */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 
 footer {
   text-align: center;
@@ -65,3 +99,46 @@ footer {
   font-size: 0.9rem;
   color: #666;
 }
+
+
+/* ✅ TABLE STYLING */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid $table-border;
+  border-radius: 6px;
+  overflow: hidden;
+
+  thead {
+    background: rgba(13, 110, 253, 0.1);
+    color: $primary-color;
+    text-align: left;
+  }
+
+  th, td {
+    border: 1px solid $table-border;
+    padding: 0.75rem 1rem;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  tr:hover {
+    background: $table-hover;
+    transition: background 0.3s ease;
+  }
+
+  th {
+    font-weight: 600;
+  }
+
+  td {
+    color: #ddd;
+  }
+}
+
