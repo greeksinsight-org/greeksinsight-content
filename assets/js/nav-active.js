@@ -2,23 +2,27 @@ document.addEventListener("DOMContentLoaded", () => {
   const path = window.location.pathname;
   const navLinks = document.querySelectorAll("header nav a");
 
-  // Remove language prefix from current path
-  const normalizedPath = path.replace(/^\/(en|es)/, "");
-
   navLinks.forEach(link => {
-    // Remove language prefix from href
-    const baseHref = link.getAttribute("href").replace(/^\/(en|es)/, "");
+    const href = link.getAttribute("href");
 
-    // Home tab is active only if normalized path is "/"
-    if (baseHref === "/") {
-      if (normalizedPath === "/") {
-        link.classList.add("active");
-      }
+    // Normalize both paths for comparison
+    // Remove the trailing slash if any
+    const normalizedPath = path.replace(/\/$/, "");
+    const normalizedHref = href.replace(/\/$/, "");
+
+    // Home tab special case
+    if (normalizedHref === "/" && normalizedPath === `/${window.location.pathname.split("/")[1]}`) {
+      link.classList.add("active");
       return;
     }
 
-    // Other tabs: startsWith match
-    if (normalizedPath.startsWith(baseHref)) {
+    // For other tabs: match base section ignoring language
+    // Extract last segment as language
+    const pathParts = normalizedPath.split("/");
+    const hrefParts = normalizedHref.split("/");
+
+    // Compare section part only (first segment after root)
+    if (pathParts[1] === hrefParts[1]) {
       link.classList.add("active");
     }
   });
