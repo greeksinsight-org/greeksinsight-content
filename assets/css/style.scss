@@ -1,9 +1,5 @@
----
-# Jekyll front matter so GitHub compiles SCSS
----
-
-$primary-color: #a07ce7;
-$bg-color: #181819;
+--- # Jekyll front matter so GitHub compiles SCSS --- $primary-color: #a07ce7;
+$bg-color: #ffffff;
 $font-stack: 'Inter', 'Segoe UI', sans-serif;
 $table-border: rgba(255, 255, 255, 0.1);
 $table-hover: rgba(13, 110, 253, 0.15);
@@ -15,10 +11,10 @@ $table-hover: rgba(13, 110, 253, 0.15);
 }
 
 body {
-  background-color: #0b0c10;
+  background-color: #ffffff;
   color: #c5c6c7;
   margin: 2rem auto;
-  max-width:60vw;
+  max-width: 60vw;
   line-height: 1.6;
   font-family: "Share Tech Mono", monospace;
   overflow-x: hidden;
@@ -46,22 +42,60 @@ body {
   text-shadow: 0 0 15px var(--neon-purple);
 }
 
-.greek-bg span:nth-child(1) { top: 10%; left: 5%; animation-duration: 20s; }
-.greek-bg span:nth-child(2) { top: 30%; left: 80%; animation-duration: 25s; animation-delay: 5s; }
-.greek-bg span:nth-child(3) { top: 60%; left: 40%; animation-duration: 22s; animation-delay: 2s; }
-.greek-bg span:nth-child(4) { top: 80%; left: 10%; animation-duration: 28s; animation-delay: 8s; }
+.greek-bg span:nth-child(1) {
+  top: 10%;
+  left: 5%;
+  animation-duration: 20s;
+}
+
+.greek-bg span:nth-child(2) {
+  top: 30%;
+  left: 80%;
+  animation-duration: 25s;
+  animation-delay: 5s;
+}
+
+.greek-bg span:nth-child(3) {
+  top: 60%;
+  left: 40%;
+  animation-duration: 22s;
+  animation-delay: 2s;
+}
+
+.greek-bg span:nth-child(4) {
+  top: 80%;
+  left: 10%;
+  animation-duration: 28s;
+  animation-delay: 8s;
+}
 
 @keyframes floatAround {
-  0% { transform: translate(0, 0) rotate(0deg); }
-  25% { transform: translate(30px, -50px) rotate(5deg); }
-  50% { transform: translate(-40px, 40px) rotate(-10deg); }
-  75% { transform: translate(20px, 60px) rotate(15deg); }
-  100% { transform: translate(0, 0) rotate(0deg); }
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+
+  25% {
+    transform: translate(30px, -50px) rotate(5deg);
+  }
+
+  50% {
+    transform: translate(-40px, 40px) rotate(-10deg);
+  }
+
+  75% {
+    transform: translate(20px, 60px) rotate(15deg);
+  }
+
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
 }
 
 
 /* Neon Heading Styles */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Share Tech Mono', monospace;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -75,11 +109,11 @@ h1 {
 }
 
 h2 {
-  color: #5ce1e6;
+  color: #b388ff;
 }
 
 h3 {
-  color: #ff6ec7;
+  color: #b388ff;
 }
 
 
@@ -87,6 +121,7 @@ h3 {
 a {
   color: $primary-color;
   text-decoration: none;
+
   &:hover {
     text-decoration: underline;
   }
@@ -95,13 +130,14 @@ a {
 /* === Rounded Header (only the outer header is rounded) === */
 header {
   background-color: #0b0c10;
-  padding: 0.8rem 1.8rem;       /* slightly larger padding for bigger font */
+  padding: 0.8rem 1.8rem;
+  /* slightly larger padding for bigger font */
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 1px solid rgba(129, 100, 188, 0.25);
-  border-radius: 1rem;          
-  box-shadow: 0 6px 18px rgba(129,100,188,0.12);
+  border-radius: 1rem;
+  box-shadow: 0 6px 18px rgba(129, 100, 188, 0.12);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -120,26 +156,31 @@ header nav {
   a {
     color: #8164bc;
     text-decoration: none;
-    font-weight: 700;          
-    font-size: 1.2rem;         
-    padding: 0.5rem 0.8rem;    
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.8rem;
     border-radius: 0.4rem;
     transition: all 0.25s ease;
 
     &:hover {
       color: #a07ce7;
-      text-shadow: 0 0 6px #a07ce7;       /* reduced from 8px */
-      background: rgba(160,124,231,0.05); /* slightly lighter */
-      box-shadow: 0 0 6px rgba(160,124,231,0.06); /* reduced from 10px */
+      text-shadow: 0 0 6px #a07ce7;
+      /* reduced from 8px */
+      background: rgba(160, 124, 231, 0.05);
+      /* slightly lighter */
+      box-shadow: 0 0 6px rgba(160, 124, 231, 0.06);
+      /* reduced from 10px */
     }
 
     /* Active/selected tab as glowing capsule */
     &.active {
       background: linear-gradient(135deg, #8164bc, #a07ce7);
       color: #fff;
-              /* reduced */
-      border-radius: 2rem;  /* capsule shape */
-      padding: 0.5rem 1.2rem; /* extra horizontal padding for capsule */
+      /* reduced */
+      border-radius: 2rem;
+      /* capsule shape */
+      padding: 0.5rem 1.2rem;
+      /* extra horizontal padding for capsule */
     }
   }
 }
@@ -199,7 +240,8 @@ table {
     text-align: left;
   }
 
-  th, td {
+  th,
+  td {
     border: 1px solid $table-border;
     padding: 0.75rem 1rem;
     text-align: left;
@@ -240,7 +282,7 @@ table {
   font-size: 2.4rem;
   font-weight: bold;
   color: #f5f5f5;
-  text-shadow: 
+  text-shadow:
     0 0 4px #ffffff,
     0 0 8px #d1d5db;
   transition: transform 0.7s ease, text-shadow 0.7s ease, font-size 0.7s;
@@ -257,21 +299,38 @@ table {
 }
 
 @keyframes hover-glitch {
-  0% { transform: translate(0); }
-  20% { transform: translate(-2px, 2px); }
-  40% { transform: translate(2px, -2px); }
-  60% { transform: translate(-1px, 1px); }
-  80% { transform: translate(1px, -1px); }
-  100% { transform: translate(0); }
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(2px, -2px);
+  }
+
+  60% {
+    transform: translate(-1px, 1px);
+  }
+
+  80% {
+    transform: translate(1px, -1px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
 }
 
 .brandWhite {
   color: #fff;
-  text-shadow: 0 0 6px #ffffff, 0 0 14px rgba(255,255,255,0.12);
+  text-shadow: 0 0 6px #ffffff, 0 0 14px rgba(255, 255, 255, 0.12);
 }
 
 .brandWhite:hover {
-  text-shadow: 0 0 8px #ffffff, 0 0 20px rgba(255,255,255,0.18);
+  text-shadow: 0 0 8px #ffffff, 0 0 20px rgba(255, 255, 255, 0.18);
 }
 
 .brandPurple {
@@ -294,11 +353,14 @@ table {
 /* === Center all images from Markdown content === */
 main img {
   display: block;
-  margin: 2rem auto; /* centers horizontally + adds vertical spacing */
-  max-width: 90%;    /* keeps image responsive */
+  margin: 2rem auto;
+  /* centers horizontally + adds vertical spacing */
+  max-width: 90%;
+  /* keeps image responsive */
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 0 12px rgba(227, 184, 245, 0.25); /* subtle neon glow */
+  box-shadow: 0 0 12px rgba(227, 184, 245, 0.25);
+  /* subtle neon glow */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
