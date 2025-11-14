@@ -2,7 +2,7 @@
 layout: default
 title: FAQ
 lang: es
-permalink: /knowledge/es/
+permalink: /howto/es/
 ---
 
 # How to
