@@ -78,7 +78,7 @@ Traders, hedge funds, and quant desks monitor daily GEX data to adjust risk and 
 - 0DTE traders combine **GEX + VWAP** to time credit spreads or straddles.  
 - Portfolio managers observe **aggregate GEX shifts** before major expirations (e.g., OPEX days) to gauge potential volatility spikes.
 
-![Figure 3: Net GEX Figure](/assets/images/.png)
+![Figure 3: Gamma Exposure Calls & Puts](/assets/images/gamma_exposure_explained_3.png)
 
 ## 3. Key Takeaways
 
