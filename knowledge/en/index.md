@@ -1,14 +1,24 @@
 ---
 layout: default
-title: Knowledge Base
+title: Help
 lang: en
-permalink: /knowledge/en/
+permalink: /help/en/
 ---
 
-# 🤖 Knowledge Base
+# 🤖 Help
 
-Knowledge Base
+Help
 
-## Key Articles Clave
+## Key Articles
 
-- [Spanish Version](../es/index.md)
+- [Gamma Exposure Explained](./gamma_exposure_explained.md)
+- [Max Pain](./max_pain.md)
+- [Volume](./volume.md)
+- [Open Interest](./open_interest.md)
+- [Implied Volatility](./implied_volatility.md)
+- [Net Drift](./net_drift.md)
+- [3D Net Gamma Exposure Surface](./gex_3d.md)
+- [Premium](./premium.md)
+- [Gamma Calls, Puts, Implied Volatility & Spot Price Evolution](./active_trader.md)
+
+[Spanish Version](../es/index.md)

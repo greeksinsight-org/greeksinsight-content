@@ -1,14 +1,24 @@
 ---
 layout: default
-title: Base de Conocimiento
+title: Ayuda
 lang: es
-permalink: /knowledge/es/
+permalink: /help/es/
 ---
 
-# 🤖 Base de Conocimiento
+# 🤖 Ayuda
 
-Knowledge Base
+Ayuda
 
 ## Artículos Clave
 
-- [Versión en Inglés](../en/index.md)
+- [Entendiendo la Exposición Gamma](./gamma_exposure_explained.md)
+- [Max Pain](./max_pain.md)
+- [Volumen](./volume.md)
+- [Open Interest](./open_interest.md)
+- [Volatilidad Implícita](./implied_volatility.md)
+- [Net Drift](./net_drift.md)
+- [Superficie 3D GEX Neta](./gex_3d.md)
+- [Premium](./premium.md)
+- [Gamma Calls, Puts, Volatilidad Implícita & Evolución del Precio](./active_trader.md)
+
+[Versión en Inglés](../en/index.md)

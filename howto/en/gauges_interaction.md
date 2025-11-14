@@ -1,0 +1,14 @@
+---
+layout: default
+title: How to
+lang: en
+permalink: /howto/en/gauges_interaction.md
+---
+
+# How to
+
+Gauges interation
+
+![Figure 1: Changing symbol](/assets/images/gauges_interaction.gif)
+
+- [Spanish Version](../es/index.md)
