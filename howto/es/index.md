@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Base de Conocimiento
+title: FAQ
 lang: es
 permalink: /knowledge/es/
 ---
 
-# 🤖 Base de Conocimiento
+# How to
 
-Knowledge Base
+How to
 
 ## Artículos Clave
 

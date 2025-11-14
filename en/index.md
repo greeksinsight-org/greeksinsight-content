@@ -2,14 +2,14 @@
 layout: default
 title: Home
 lang: en
-permalink: /en/
+permalink: /
 ---
 
-# 🌍 Welcome to GreeksInsight
+# Welcome to GreeksInsight
 
-Explore deep-dive articles across knowledge domains:
+Explore deep-dive articles across domains:
 
-- 🤖 [Help](/help/en/)
-- 📊 [Knowledge Base](/knowledge/en/)
+- [Knowledge Base](/knowledge/en/)
+- [HowTo](/howto/en/)
 
 > Choose a topic above or switch language using the toggle in the header.
