@@ -11,7 +11,7 @@ How to
 
 ## Key Articles 
 
-- [Change Symbol](./gamma_exposure_explained.md)
+- [Change Symbol](./change_symbol.md)
 - [3D GEX component](./3d_interaction.md)
 - [AI assistance](./ai_assistance.md)
 - [AI interaction](./ai_interaction.md)
