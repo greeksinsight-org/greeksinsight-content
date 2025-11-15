@@ -2,7 +2,7 @@
 layout: default
 title: GEX 3D Surface
 lang: es
-permalink: /help/es/gex_3d
+permalink: /knowledge/es/gex_3d
 ---
 
 # Superficie 3D Exposición Gamma Neta

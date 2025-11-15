@@ -2,7 +2,7 @@
 layout: default
 title: Premium
 lang: en
-permalink: /help/en/premium
+permalink: /knowledge/en/premium
 ---
 
 # Ask Premium, Bid Premium, Total Premium, and Put/Call Ratio (Volume)

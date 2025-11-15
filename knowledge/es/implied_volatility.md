@@ -2,7 +2,7 @@
 layout: default
 title: Volatilidad Implícita
 lang: es
-permalink: /help/es/implied_volatility
+permalink: /knowledge/es/implied_volatility
 ---
 
 # Volatilidad Implícita — Calls & Puts

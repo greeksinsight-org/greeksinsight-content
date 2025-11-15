@@ -2,7 +2,7 @@
 layout: default
 title: Max Pain
 lang: es
-permalink: /help/es/max_pain
+permalink: /knowledge/es/max_pain
 ---
 
 # Max Pain — Pérdida Call & Put

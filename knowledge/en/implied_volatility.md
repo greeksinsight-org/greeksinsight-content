@@ -2,7 +2,7 @@
 layout: default
 title: Implied Volatility
 lang: en
-permalink: /help/en/implied_volatility
+permalink: /knowledge/en/implied_volatility
 ---
 
 # Implied Volatility

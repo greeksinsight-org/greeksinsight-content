@@ -2,7 +2,7 @@
 layout: default
 title: Volumen
 lang: es
-permalink: /help/es/volume
+permalink: /knowledge/es/volume
 ---
 
 # Volumen

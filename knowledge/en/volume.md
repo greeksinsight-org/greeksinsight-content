@@ -2,7 +2,7 @@
 layout: default
 title: Volume
 lang: en
-permalink: /help/en/volume
+permalink: /knowledge/en/volume
 ---
 
 # Options Volume

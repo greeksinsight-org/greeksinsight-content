@@ -2,7 +2,7 @@
 layout: default
 title: Superficie 3D GEX Neta
 lang: en
-permalink: /help/en/gex_3d
+permalink: /knowledge/en/gex_3d
 ---
 
 # 3D Net Gamma Exposure Surface

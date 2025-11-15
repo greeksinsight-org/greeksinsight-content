@@ -2,7 +2,7 @@
 layout: default
 title: Ayuda
 lang: es
-permalink: /help/es/
+permalink: /knowledge/es/
 ---
 
 # 🤖 Ayuda

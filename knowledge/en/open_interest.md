@@ -2,7 +2,7 @@
 layout: default
 title: Open Interest
 lang: en
-permalink: /help/en/open_interest
+permalink: /knowledge/en/open_interest
 ---
 
 # Open Interest — Calls & Puts

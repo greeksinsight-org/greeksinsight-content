@@ -2,7 +2,7 @@
 layout: default
 title: Interés Abierto
 lang: es
-permalink: /help/es/open_interest
+permalink: /knowledge/es/open_interest
 ---
 
 # Interés Abierto — Calls & Puts

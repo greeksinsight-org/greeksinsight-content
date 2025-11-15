@@ -2,7 +2,7 @@
 layout: default
 title: Net Drift
 lang: en
-permalink: /help/en/net_drift
+permalink: /knowledge/en/net_drift
 ---
 
 # Net Drift — Premium Calls & Puts

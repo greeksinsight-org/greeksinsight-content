@@ -2,7 +2,7 @@
 layout: default
 title: Gamma Exposure
 lang: en
-permalink: /help/en/active_trader
+permalink: /knowledge/en/active_trader
 ---
 
 # Gamma Calls, Puts, Implied Volatility & Spot Price Evolution
