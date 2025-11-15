@@ -14,4 +14,4 @@ Explora artículos a través de nuestra base de conocimientos:
 
 > Elige un tópico arriba or cambia de lenguaje con el interruptor en la parte superior.
 
-- [Versión en Inglés](../en/index.md)
+- [Versión en Inglés](./en/index.md)
