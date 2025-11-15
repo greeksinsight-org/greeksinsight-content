@@ -11,4 +11,4 @@ AI query
 
 ![Figure 1: AI query](/assets/images/ai_interaction.gif)
 
-- [Spanish Version](../es/index.md)
+[← Back to Help Index](./index.md)

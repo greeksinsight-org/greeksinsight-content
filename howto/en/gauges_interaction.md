@@ -11,4 +11,4 @@ Gauges interation
 
 ![Figure 1: Changing symbol](/assets/images/gauges_interaction.gif)
 
-- [Spanish Version](../es/index.md)
+[← Back to Help Index](./index.md)

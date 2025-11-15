@@ -11,4 +11,4 @@ Sidebar interaction
 
 ![Figure 1: Sidebar Interaction](/assets/images/sidebar_interaction.gif)
 
-- [Spanish Version](../es/index.md)
+[← Back to Help Index](./index.md)

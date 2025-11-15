@@ -11,4 +11,4 @@ Login
 
 ![Figure 1: Login](/assets/images/login.gif)
 
-- [Spanish Version](../es/index.md)
+[← Back to Help Index](./index.md)

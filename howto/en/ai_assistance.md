@@ -11,4 +11,4 @@ AI Assistance
 
 ![Figure 1: AI assistance](/assets/images/ai_assistance.gif)
 
-- [Spanish Version](../es/index.md)
+[← Back to Help Index](./index.md)

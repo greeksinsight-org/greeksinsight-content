@@ -11,4 +11,4 @@ Max Pain Value
 
 ![Figure 1: Max Pain Value](/assets/images/max_pain.gif)
 
-- [Spanish Version](../es/index.md)
+[← Back to Help Index](./index.md)

@@ -11,4 +11,4 @@ Logout
 
 ![Figure 1: Logout](/assets/images/logout.gif)
 
-- [Spanish Version](../es/index.md)
+[← Back to Help Index](./index.md)

@@ -11,4 +11,4 @@ Changing symbol
 
 ![Figure 1: Changing symbol](/assets/images/change_symbol.gif)
 
-- [Spanish Version](../es/index.md)
+[← Back to Help Index](./index.md)

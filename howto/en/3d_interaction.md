@@ -11,4 +11,4 @@ permalink: /howto/en/3d_interaction
 
 ![Figure 1: 3D GEX interaction](/assets/images/3d_interaction.gif)
 
-- [Spanish Version](../es/index.md)
+[← Back to Help Index](./index.md)
