@@ -27,7 +27,7 @@ La IV influye directamente en la **prima de las opciones**, el **costo de cobert
 - Las **puts** presentan una IV más alta porque los inversores pagan por **protección ante caídas**.  
 Esto genera el fenómeno conocido como **volatility skew**, o asimetría de volatilidad.
 
-### 2.2. Métricas y Análisis
+### 2.2. Otras Métricas IV
 
 - **IV Rank (IVR)**: Compara la IV actual con su rango anual.  
 - **IV Percentil (IVP)**: Mide el porcentaje de tiempo en que la IV fue menor a la actual.  

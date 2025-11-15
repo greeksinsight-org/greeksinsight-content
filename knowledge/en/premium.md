@@ -22,10 +22,6 @@ The **Put/Call Volume Ratio**, when integrated with premium flows, adds deeper i
 - **Ask Premiums**: Show aggressive buying — traders paying up for exposure.  
 - **Total Premium** = Σ(Call Premiums + Put Premiums) across strikes and expirations.
 
-Premium flow analysis helps detect **institutional footprints**:
-- High **ask-side flow** → aggressive speculation or protection demand.  
-- High **bid-side flow** → unwinding or profit-taking behavior.
-
 The **Put/Call Premium Ratio** can be computed as:
 > **PCR (Premium) = Total Put Premium / Total Call Premium**
 

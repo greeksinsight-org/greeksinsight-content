@@ -20,12 +20,9 @@ This visualization helps traders see **zones of positive and negative gamma**, r
 
 The **Net Gamma Exposure Surface** is typically computed by summing the gamma of all options (calls and puts) weighted by open interest and the notional exposure for each strike and expiry.  
 
-Mathematically:
-> **GEX(strike, expiry) = Σ [(Γ_call × OI_call × ContractSize) – (Γ_put × OI_put × ContractSize)]**
-
 In 3D form:
 - **X-axis:** Strike Price  
-- **Y-axis:** Time to Expiration (Days)  
+- **Y-axis:** Time 
 - **Z-axis:** Net Gamma Exposure  
 
 **Interpretation:**

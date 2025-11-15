@@ -16,11 +16,9 @@ Más que un valor puntual, es una representación espacial del **impacto de las 
 
 ## 2. Aplicación
 
-La GEX se calcula sumando las exposiciones gamma de calls y puts, ponderadas por el interés abierto y el tamaño del contrato para cada strike y vencimiento:
+La GEX se calcula sumando las exposiciones gamma de calls y puts, ponderadas por el interés abierto y el tamaño del contrato para cada strike y vencimiento.
 
-> **GEX(strike, expiry) = Σ [(Γ_call × OI_call × TamañoContrato) – (Γ_put × OI_put × TamañoContrato)]**
-
-Ejes:
+Ejes 3D:
 - **Eje X:** Precio de Ejercicio  
 - **Eje Y:** Tiempo 
 - **Eje Z:** Exposición Neta de Gamma  

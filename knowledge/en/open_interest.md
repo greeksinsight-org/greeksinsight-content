@@ -32,10 +32,7 @@ These levels often act as **Gamma Walls**, influencing dealer hedging and intrad
 
 ### 2.3. OI Changes and Expirations
 
-Monitoring daily changes in OI helps identify **new exposure** versus **closing flows**:
-> ΔOI = Today’s OI – Yesterday’s OI
-
-Large OI buildup before expiration can **anchor prices** around key strikes, known as **pinning**.
+Monitoring daily changes in OI helps identify **new exposure** versus **closing flows**. Large OI buildup before expiration can **anchor prices** around key strikes, known as **pinning**.
 
 ![Figure 2: OI Map Zones](/assets/images/.png)
 

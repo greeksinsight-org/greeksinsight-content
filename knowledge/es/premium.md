@@ -20,10 +20,6 @@ El equilibrio entre las **primas de compra (ask)**, **venta (bid)** y el **flujo
 - **Primas Ask:** Reflejan compras agresivas, dispuestos a pagar más por exposición.  
 - **Prima Total** = Σ(Primas Calls + Primas Puts) en todos los strikes y vencimientos.
 
-El análisis del flujo de primas permite detectar **huellas institucionales**:
-- Dominio del lado **ask** → compras agresivas o demanda de cobertura.  
-- Dominio del lado **bid** → cierre de posiciones o toma de beneficios.
-
 **Relación Put/Call (Primas):**
 > **PCR (Prima) = Prima Total de Puts / Prima Total de Calls**
 

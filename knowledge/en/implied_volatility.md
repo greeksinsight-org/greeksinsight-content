@@ -28,7 +28,7 @@ Each option (call or put) has its own IV, but traders typically analyze **IV lev
 - **Puts** usually carry higher IV due to **demand for downside protection**.  
   This creates a **volatility skew** — higher IV on puts, lower on calls — especially in indices like SPX.
 
-### 2.2. IV Metrics and Analysis
+### 2.2. Other IV Metrics
 
 Common IV metrics:
 - **IV Rank (IVR)**: Compares current IV to its 1-year range.  

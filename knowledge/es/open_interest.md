@@ -32,8 +32,6 @@ Estos niveles son críticos porque reflejan los puntos donde los dealers deben *
 
 ### 2.3. Cambios en OI y Vencimientos
 
-> ΔOI = OI Hoy – OI Ayer
-
 Un aumento significativo de OI antes del vencimiento puede **anclar el precio** cerca de ciertos strikes, fenómeno conocido como **pinning** o “precio imán”.
 
 ![Figura 2: Mapa de OI y Zonas Clave](/assets/images/.png)
