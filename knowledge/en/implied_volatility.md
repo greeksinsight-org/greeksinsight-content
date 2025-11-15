@@ -44,7 +44,7 @@ Interpretation:
 Comparing **implied vs realized volatility** (actual price movement) helps traders gauge if options are **overpriced** or **underpriced**.  
 Persistent IV > Realized Vol means markets overpay for protection, common in indices.  
 
-![Figure 2: IV Skew](assets/.png)
+![Figure 2: IV Skew](assets/implied_volatility_2.png)
 
 ## 3. Key Takeaways
 

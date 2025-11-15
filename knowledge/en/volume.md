@@ -30,8 +30,6 @@ Interpretation:
 
 Combining **volume trends** with **open interest** shows whether new positions are being **opened** or **closed**, improving signal accuracy.
 
-![Figure 2: Volume Ratio and Market Sentiment](/assets/images/.png)
-
 ## 3. Key Takeaways
 
 - Volume shows **participation and conviction**.  

@@ -31,8 +31,6 @@ Interpretation:
 
 Combining volume and premium ratios provides a **multi-layered sentiment model**, revealing whether traders are **actively buying or selling** exposure.
 
-![Figure 2: Premium Indicator](/assets/images/.png)
-
 ## 3. Key Takeaways
 
 - Premiums reflect **real money flows** — not just contract counts.  

@@ -36,4 +36,6 @@ El **precio spot** actúa como punto de referencia:
 - El precio spot refleja el **resultado neto** de ese equilibrio.  
 - Analizar los tres en conjunto permite anticipar **cambios de régimen de volatilidad**.
 
+![Figure 3: Gamma, IV, and Spot Dynamics over Time](/assets/images/active_trader_3.png)
+
 [← Ir a Indice](./index.md)

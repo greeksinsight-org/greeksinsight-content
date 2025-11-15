@@ -26,7 +26,7 @@ Interpretación:
 - Si el precio está **por encima** del Max Pain → los compradores de calls ganan.  
 - En las horas previas al vencimiento, el precio puede tender hacia esa zona.
 
-![Figura 2: Ejemplo de Curva Max Pain](/assets/images/.png)
+![Figura 2: Ejemplo de Curva Max Pain](/assets/images/max_pain_2.png)
 
 ## 3. Puntos Clave
 

@@ -29,7 +29,7 @@ Practical insights:
 - When the market trades **above** Max Pain → more call holders are in profit.  
 - As expiration approaches, price often moves closer to the Max Pain zone.
 
-![Figure 2: Max Pain Curve](/assets/images/.png)
+![Figure 2: Max Pain Curve](/assets/images/max_pain_2.png)
 
 ## 3. Key Takeaways
 

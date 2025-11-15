@@ -40,7 +40,7 @@ Interpretación práctica:
 
 Si la IV se mantiene **por encima de la volatilidad realizada**, significa que los inversores **sobrepagan por cobertura**, lo cual es común en índices grandes como SPX.
 
-![Figura 2: Estructura y Skew de IV](/assets/images/.png)
+![Figura 2: Estructura y Skew de IV](/assets/images/implied_volatility_2.png)
 
 ## 3. Puntos Clave
 

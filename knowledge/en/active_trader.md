@@ -44,4 +44,6 @@ When the market moves:
 - Spot price movements often reflect **feedback loops** between dealer hedging and volatility expectations.  
 - Monitoring Gamma + IV + Spot together offers **predictive insight** into potential **volatility regime shifts**.
 
+![Figure 3: Gamma, IV, and Spot Dynamics over Time](/assets/images/active_trader_3.png)
+
 [← Back to Help Index](./index.md)

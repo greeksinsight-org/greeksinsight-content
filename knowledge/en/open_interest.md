@@ -34,8 +34,6 @@ These levels often act as **Gamma Walls**, influencing dealer hedging and intrad
 
 Monitoring daily changes in OI helps identify **new exposure** versus **closing flows**. Large OI buildup before expiration can **anchor prices** around key strikes, known as **pinning**.
 
-![Figure 2: OI Map Zones](/assets/images/.png)
-
 ## 3. Key Takeaways
 
 - Open Interest shows **commitment** and **liquidity depth**.  

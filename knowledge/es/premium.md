@@ -27,8 +27,6 @@ Interpretación:
 - Ratio < 1 → Sesgo alcista (mayor demanda de calls).  
 - Ratio > 1 → Sesgo bajista (mayor demanda de puts).
 
-![Figura 2: Ratio de Primas y Sentimiento de Mercado](/assets/images/.png)
-
 ## 3. Puntos Clave
 
 - Las primas reflejan **flujos reales de capital**, no solo volumen de contratos.  

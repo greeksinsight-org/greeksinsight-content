@@ -35,8 +35,6 @@ Understanding net drift helps design systematic strategies:
 - **Negative drift** → Favor long volatility setups (long puts, straddles).  
 - Monitoring **premium decay curves** around events (FOMC, CPI) helps identify temporary distortions in pricing.
 
-![Figure 2: Net Drift and Premium Decay Curve](/assets/images/.png)
-
 ## 3. Key Takeaways
 
 - Historical Net Drift shows **long-term edge** between buyers and sellers of volatility.  

@@ -34,8 +34,6 @@ Si el decaimiento promedio supera las pérdidas durante picos de volatilidad, el
 - Drift negativo → conviene **comprar volatilidad** o proteger posiciones.  
 - Analizar el drift histórico permite ajustar la exposición antes de eventos macroeconómicos.
 
-![Figura 2: Curva de Decaimiento de Prima y Net Drift](/assets/images/.png)
-
 ## 3. Puntos Clave
 
 - El Net Drift refleja la **ventaja estadística** de un lado del mercado.  
