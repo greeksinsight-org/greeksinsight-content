@@ -1,13 +1,11 @@
 ---
 layout: default
-title: Ayuda
+title: Knowledge Base
 lang: es
 permalink: /knowledge/es/
 ---
 
-# 🤖 Ayuda
-
-Ayuda
+# Base de Conocimiento
 
 ## Artículos Clave
 

@@ -22,7 +22,7 @@ La GEX se calcula sumando las exposiciones gamma de calls y puts, ponderadas por
 
 Ejes:
 - **Eje X:** Precio de Ejercicio  
-- **Eje Y:** Días hasta Vencimiento  
+- **Eje Y:** Tiempo 
 - **Eje Z:** Exposición Neta de Gamma  
 
 Interpretación:
