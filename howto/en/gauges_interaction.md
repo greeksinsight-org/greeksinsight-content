@@ -7,8 +7,8 @@ permalink: /howto/en/gauges_interaction
 
 # How to
 
-Gauges interation
+**Interacting with Meters:** Hovering the mouse over any of the graphs will display the value. See animation below.
 
 ![Figure 1: Changing symbol](/assets/images/gauges_interaction.gif)
 
-[← Back to Help Index](./index.md)
+[← Back to Howto Index](./index.md)

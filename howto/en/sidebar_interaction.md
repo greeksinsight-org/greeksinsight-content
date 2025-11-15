@@ -7,8 +7,8 @@ permalink: /howto/en/sidebar_interaction
 
 # How to
 
-Sidebar interaction
+**Interacting with the Sidebar:** In the center left, there is a small bar. Clicking it hides or expands the sidebar. See the animation below.
 
 ![Figure 1: Sidebar Interaction](/assets/images/sidebar_interaction.gif)
 
-[← Back to Help Index](./index.md)
+[← Back to Howto Index](./index.md)

@@ -7,8 +7,8 @@ permalink: /howto/en/interaction_on_off_plot
 
 # How to
 
-Turn on and off plot
+**Hiding and showing charts:** In any chart, you can hide or show any chart by clicking on the top label. See the animation below.
 
 ![Figure 1: Turn on and off plot](/assets/images/interaction_on_off_plot.gif)
 
-[← Back to Help Index](./index.md)
+[← Back to Howto Index](./index.md)

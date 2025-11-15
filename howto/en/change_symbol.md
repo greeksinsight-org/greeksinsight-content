@@ -7,8 +7,8 @@ permalink: /howto/en/change_symbol
 
 # How to
 
-Changing symbol
+**Changing Symbol:** In the upper left corner of each plot, you will find a drop-down list where you can select from the available assets. See the animation below.
 
-![Figure 1: Changing symbol](/assets/images/change_symbol.gif)
+![Figure 1: Changing symbol](/assets/images/symbol_change.gif)
 
-[← Back to Help Index](./index.md)
+[← Back to Howto Index](./index.md)

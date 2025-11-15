@@ -14,4 +14,4 @@ Explore deep-dive articles across domains:
 
 > Choose a topic above or switch language using the toggle in the header.
 
-- [Spanish Version](./es/index.md)
+- [Spanish Version](../es/index.md)

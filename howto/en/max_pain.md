@@ -7,8 +7,8 @@ permalink: /howto/en/max_pain
 
 # How to
 
-Max Pain Value
+**Max Pain value:** Hovering your mouse over the dotted line will display the Max Pain value. See the animation below.
 
 ![Figure 1: Max Pain Value](/assets/images/max_pain.gif)
 
-[← Back to Help Index](./index.md)
+[← Back to Howto Index](./index.md)
