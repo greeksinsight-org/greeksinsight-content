@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to change symbol
 lang: en
-permalink: /howto/en/change_symbol.md
+permalink: /howto/en/change_symbol
 ---
 
 # How to

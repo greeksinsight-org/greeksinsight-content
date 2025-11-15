@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to 3d GEX 
 lang: en
-permalink: /howto/en/3d_interaction.md
+permalink: /howto/en/3d_interaction
 ---
 
 # How to

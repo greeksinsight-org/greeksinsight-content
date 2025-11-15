@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to ai assistance
 lang: en
-permalink: /howto/en/ai_assistance.md
+permalink: /howto/en/ai_assistance
 ---
 
 # How to

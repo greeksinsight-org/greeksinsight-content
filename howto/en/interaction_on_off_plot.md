@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to on off plot
 lang: en
-permalink: /howto/en/interaction_on_off_plot.md
+permalink: /howto/en/interaction_on_off_plot
 ---
 
 # How to

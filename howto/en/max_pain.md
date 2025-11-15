@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to max pain
 lang: en
-permalink: /howto/en/max_pain.md
+permalink: /howto/en/max_pain
 ---
 
 # How to

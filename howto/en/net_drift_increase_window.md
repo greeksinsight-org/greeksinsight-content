@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to netdrift time window
 lang: en
-permalink: /howto/en/net_drift_increase_window.md
+permalink: /howto/en/net_drift_increase_window
 ---
 
 # How to

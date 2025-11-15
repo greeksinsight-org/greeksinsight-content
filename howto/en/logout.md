@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to logout
 lang: en
-permalink: /howto/en/logout.md
+permalink: /howto/en/logout
 ---
 
 # How to

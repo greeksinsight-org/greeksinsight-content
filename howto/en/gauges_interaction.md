@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to gauges
 lang: en
-permalink: /howto/en/gauges_interaction.md
+permalink: /howto/en/gauges_interaction
 ---
 
 # How to

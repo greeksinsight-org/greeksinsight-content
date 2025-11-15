@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to login
 lang: en
-permalink: /howto/en/login.md
+permalink: /howto/en/login
 ---
 
 # How to

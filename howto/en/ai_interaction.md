@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to ai prompt
 lang: en
-permalink: /howto/en/ai_interaction.md
+permalink: /howto/en/ai_interaction
 ---
 
 # How to

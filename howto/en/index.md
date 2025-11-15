@@ -21,7 +21,7 @@ How to
 - [Logout](./logout.md)
 - [Max Pain Value](./max_pain.md)
 - [Active Monitor Component](./monitor_interaction.md)
-- [Net Drift increase/decrease time window](./net_drift_increase_window.md)
+- [Net Drift time window](./net_drift_increase_window.md)
 - [Side Bar colapse](./sidebar_interaction.md)
 
 - [Spanish Version](../es/index.md)

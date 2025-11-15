@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to monitor
 lang: en
-permalink: /howto/en/monitor_interaction.md
+permalink: /howto/en/monitor_interaction
 ---
 
 # How to

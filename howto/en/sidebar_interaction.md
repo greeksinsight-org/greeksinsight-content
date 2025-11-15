@@ -1,8 +1,8 @@
 ---
 layout: default
-title: How to
+title: How to sidebar colapse
 lang: en
-permalink: /howto/en/sidebar_interaction.md
+permalink: /howto/en/sidebar_interaction
 ---
 
 # How to
