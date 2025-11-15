@@ -30,8 +30,6 @@ Interpretación:
 
 Combinado con el **Open Interest**, el volumen ayuda a distinguir si las posiciones son **nuevas** o **cerradas**.
 
-![Figura 2: Ratio Put/Call y Sentimiento del Mercado](/assets/images/.png)
-
 ## 3. Puntos Clave
 
 - El volumen refleja la **intensidad del flujo del mercado**.  
