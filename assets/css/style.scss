@@ -240,20 +240,20 @@ footer {
 }
 
 
-/* ✅ TABLE STYLING */
+//* ✅ TABLE STYLING - LIGHT CELLS, DARK TEXT */
 table {
   width: 100%;
   border-collapse: collapse;
   margin: 1.5rem 0;
   font-size: 0.95rem;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(255, 255, 255, 0.02); // keep cells light
   border: 1px solid $table-border;
   border-radius: 6px;
   overflow: hidden;
 
   thead {
     background: rgba(13, 110, 253, 0.1);
-    color: $primary-color;
+    color: #111; // dark header text
     text-align: left;
   }
 
@@ -265,7 +265,7 @@ table {
   }
 
   tr:nth-child(even) {
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.03); // slightly different stripe
   }
 
   tr:hover {
@@ -278,9 +278,11 @@ table {
   }
 
   td {
-    color: #ddd;
+    color: #222; // dark text for cells
   }
 }
+
+
 
 /* === Brand Logo Glitch Animation === */
 .brandName {
