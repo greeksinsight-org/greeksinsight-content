@@ -7,7 +7,7 @@ permalink: /howto/en/
 
 # How to
 
-How to
+How to interact with the components and the GreeksInsight tool. 
 
 ## Key Articles 
 
@@ -23,5 +23,3 @@ How to
 - [Active Monitor Component](./monitor_interaction.md)
 - [Net Drift time window](./net_drift_increase_window.md)
 - [Side Bar colapse](./sidebar_interaction.md)
-
-- [Spanish Version](../es/index.md)

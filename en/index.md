@@ -13,5 +13,3 @@ Explore deep-dive articles across domains:
 - [HowTo](/howto/en/)
 
 > Choose a topic above or switch language using the toggle in the header.
-
-- [Spanish Version](../es/index.md)

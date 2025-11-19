@@ -19,4 +19,3 @@ permalink: /knowledge/en/
 - [Premium](./premium.md)
 - [Gamma Calls, Puts, Implied Volatility & Spot Price Evolution](./active_trader.md)
 
-[Spanish Version](../es/index.md)
