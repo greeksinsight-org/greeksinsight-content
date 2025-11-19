@@ -5,7 +5,7 @@ lang: en
 permalink: /knowledge/en/
 ---
 
-# Knowledge Base
+<!-- # Knowledge Base -->
 
 ## Key Articles
 

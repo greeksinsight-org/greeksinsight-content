@@ -11,14 +11,14 @@ header {
 }
 
 header nav a {
-  color: var(--text-light);
+  color: var(--neon-purple);
   text-decoration: none;
   margin-right: 1rem;
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 header nav a:hover {
-  color: var(--neon-purple-light);
+  color: var(--neon-purple-dark);
   text-shadow: 0 0 6px var(--neon-purple-light);
 }
 
@@ -48,7 +48,14 @@ main {
   max-width: 900px;
   margin: 3rem auto;
   padding: 0 1.5rem;
+  background: #411c1c;   /* Solid white background */
+  position: relative;    /* Needed for z-index to take effect */
+  z-index: 10;           /* Ensures main content sits above floating letters */
+  border-radius: 8px;    /* Optional: smoother edges */
 }
+
+
+
 
 footer {
   text-align: center;

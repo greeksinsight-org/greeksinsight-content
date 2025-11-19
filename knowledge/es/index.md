@@ -5,7 +5,7 @@ lang: es
 permalink: /knowledge/es/
 ---
 
-# Base de Conocimiento
+<!-- # Base de Conocimiento -->
 
 ## Artículos Clave
 

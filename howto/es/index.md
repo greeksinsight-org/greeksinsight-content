@@ -1,25 +1,27 @@
 ---
 layout: default
-title: FAQ
+title: Cómo Hacer
 lang: es
 permalink: /howto/es/
 ---
 
-# How to
-
-Como interactuar con los componentes y la herramienta GreeksInsight.
+### Cómo interactuar con los componentes y la herramienta de GreeksInsight.
 
 ## Artículos Clave
 
-- [Cambiar Símbolo](./change_symbol.md)
-- [Componente interactivo 3D GEX](./3d_interaction.md)
-- [Asistente IA](./ai_assistance.md)
+- [Registrarse en GreeksInsight](./signup.md)
+- [Iniciar sesión en GreeksInsight](./login.md)
+- [Restablecer la contraseña](./reset_password.md)
+- [Suscribirse a un plan](./plans.md)
+- [Gestionar la suscripción](./manage_subscription.md)
+- [Cambiar símbolo](./change_symbol.md)
+- [Componente GEX 3D](./3d_interaction.md)
+- [Asistencia con IA](./ai_assistance.md)
 - [Interacción con IA](./ai_interaction.md)
-- [Componente de Métricas](./gauges_interaction.md)
-- [Encender y Apagar gráficos](./interaction_on_off_plot.md)
-- [Login](./login.md)
-- [Logout](./logout.md)
+- [Componente de Medidores (Gauges)](./gauges_interaction.md)
+- [Activar/Desactivar Gráficos](./interaction_on_off_plot.md)
 - [Valor de Max Pain](./max_pain.md)
-- [Componente Activo - Monitor](./monitor_interaction.md)
-- [Cambiar ventana de tiempo Net Drift](./net_drift_increase_window.md)
-- [Despliegue de Barra lateral](./sidebar_interaction.md)
+- [Componente Active Monitor](./monitor_interaction.md)
+- [Ventana de Tiempo de Net Drift](./net_drift_increase_window.md)
+- [Colapsar Barra Lateral](./sidebar_interaction.md)
+- [Cerrar sesión en GreeksInsight](./logout.md)

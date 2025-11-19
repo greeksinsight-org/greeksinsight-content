@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | default: "Greeks Insight" }}</title>
 
+  <!-- 🔥 Favicon -->
+  <link rel="icon" type="image/png" href="{{ '/assets/images/gi_transparent_3D_2.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/gi_transparent_3D_2.png' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/assets/images/gi_transparent_3D_2.png' | relative_url }}">
+
   <!-- Google Font + Neon Theme -->
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -13,26 +18,25 @@
 <body>
   <!-- ✨ Dancing Greek Letters Background -->
   <div class="greek-bg">
-    <span>Γ Δ Θ</span>
-    <span>Δ Γ Θ</span>
-    <span>Δ Θ Γ</span>
-    <span>Θ Δ Γ</span>
+    <span class="glitch brandPurple">Γ Δ Θ</span>
+    <span class="glitch brandPurple">Δ Γ Θ</span>
+    <span class="glitch brandPurple">Δ Θ Γ</span>
+    <span class="glitch brandPurple">Θ Δ Γ</span>
   </div>
 
   <!-- 🔮 Neon Brand Logo -->
   <div class="brandName">
-    <span class="glitch brandWhite">Greeks</span>
-    <span class="glitch brandPurple">Insight</span>
+    <span class="glitch brandPurple">Greeks Insight</span>
   </div>
 
   <!-- 🔹 Header with Rounded Neon Nav -->
   <header>
     <nav>
-  <a href="/{{ page.lang }}/">Home</a>
-  <a href="/knowledge/{{ page.lang }}/">Knowledge Base</a>
-  <a href="/howto/{{ page.lang }}/">Howto</a>
-  <a href="/about/{{ page.lang }}/">About</a>
-</nav>
+      <a href="/{{ page.lang }}/">Home</a>
+      <a href="/knowledge/{{ page.lang }}/">Knowledge Base</a>
+      <a href="/howto/{{ page.lang }}/">Howto</a>
+      <a href="/about/{{ page.lang }}/">About</a>
+    </nav>
 
     <div class="lang-toggle" id="langToggle">
       <span id="enBtn" class="{% if page.lang == 'en' %}active{% endif %}">EN</span>
@@ -49,6 +53,6 @@
   </footer>
 
   <script src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>
-   <script src="{{ '/assets/js/nav-active.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/nav-active.js' | relative_url }}"></script>
 </body>
 </html>
