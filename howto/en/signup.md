@@ -94,7 +94,5 @@ If problems persist, contact support at [support email] with details (email addr
 - Keyboard: All fields can be filled and submitted using keyboard navigation (Tab to move; Enter to submit when focused on the button).
 - Screen readers: Labels are provided for inputs — if you encounter accessibility issues, please report them to support.
 
----
-
 [← Back to Howto Index](./index.md)
 

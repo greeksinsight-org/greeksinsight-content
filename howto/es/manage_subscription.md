@@ -15,8 +15,6 @@ Esta guía te explica cómo acceder a tus detalles de usuario, ver la informaci�
 - Ten a mano los datos de tu método de pago si planeas actualizar la información de facturación.
 - Si vas a cancelar, ten en cuenta que puedes seguir usando Greeksinsight hasta que finalice tu período de suscripción actual.
 
----
-
 ## Paso 1: Navegar a los detalles del usuario
 
 ### 1.1 Accede a tu perfil
@@ -33,8 +31,6 @@ Desde el panel principal o cualquier página, busca el **icono de perfil** ubica
 
 ![Figure 1: User Icon](/assets/images/user_profile.png)
 
----
-
 ## Paso 2: Accede a la sección "Manage Subscription"
 
 ### 2.1 Ubica el botón "Manage Subscription"
@@ -43,8 +39,6 @@ En la página de Detalles de Usuario / Configuración de la Cuenta verás un bot
 - **"Manage Subscription"**
 
 Haz clic en este botón para ir a la página de Gestión de Suscripción.
-
----
 
 ## Paso 3: Ver los detalles de tu suscripción
 
@@ -84,15 +78,11 @@ Una vez que hagas clic en "Manage Subscription", verás una vista detallada de t
 - **Cancelación pendiente:** Tienes acceso hasta la fecha mostrada. Después de esa fecha, ya no tendrás acceso.
 - **Expired:** Tu suscripción terminó. Necesitarás renovarla para recuperar acceso.
 
----
-
 ## Paso 4: Actualizar tu plan
 
 ### 4.1 Ubica el botón "Upgrade Plan"
 
 En la página de Gestión de Suscripción verás un botón para actualizar tu plan, que te llevará a la sección de Planes para actualizar/degradar/cambiar entre los planes disponibles.
-
----
 
 ## Paso 5: Cancelar tu suscripción
 
@@ -127,8 +117,6 @@ Haz clic en **"Yes, Cancel"** para finalizar.
 - Verás la **fecha efectiva de cancelación**.
 - Puedes seguir usando todas las funciones de Greeksinsight hasta esa fecha.
 - Después de esa fecha, perderás el acceso a menos que renueves.
-
----
 
 ## Paso 6: Actualizar tu método de pago
 
@@ -170,8 +158,6 @@ Haz clic en **"Save"**, **"Update Payment Method"** o **"Confirm"**.
 - El nuevo método se usará en el próximo cargo automático.
 - Recibirás un correo de confirmación.
 
----
-
 ## Escenarios comunes
 
 ### "Quiero actualizar a Premium"
@@ -200,8 +186,6 @@ Haz clic en **"Save"**, **"Update Payment Method"** o **"Confirm"**.
 3. Actualiza los datos.
 4. Guarda.
 5. La nueva tarjeta se usará en el siguiente cobro.
-
----
 
 ## Solución de problemas
 
@@ -232,16 +216,12 @@ Haz clic en **"Save"**, **"Update Payment Method"** o **"Confirm"**.
 - Verifica que la fecha y monto coincidan con tu plan.
 - Si hay error, contacta soporte con los detalles.
 
----
-
 ## Notas de seguridad y privacidad
 
 - **Seguridad de pago:** Tus datos están cifrados y no se almacenan por completo.
 - **Cargos autorizados:** Solo se realizan los cargos aprobados por tu plan.
 - **Cancelación = sin cargos:** Después de cancelar, no habrá cargos futuros.
 - **Política de reembolsos:** Consulta nuestra política o escribe a soporte.
-
----
 
 ## Soporte y Preguntas Frecuentes
 
@@ -259,8 +239,6 @@ Depende de la política de reembolsos. Contacta a contact@greeksinsight.com.
 
 **¿Qué hago si cancelé accidentalmente?**  
 Puedes reactivar si aún estás en período de gracia, de lo contrario debes suscribirte de nuevo.
-
----
 
 ## ¿Necesitas ayuda?
 

@@ -4,7 +4,6 @@ title: How to Subscribe to a Plan
 lang: en
 permalink: /howto/en/plans
 ---
-# How to
 
 # Subscription Plans
 
@@ -23,8 +22,6 @@ The Pro Plan gives you access to professional-grade tools for advanced analytics
 | | |
 | ![Figure 1: Pro Plan Monthly](/assets/images/pro_plan_monthly.png) | ![Figure 2: Pro Plan Yearly](/assets/images/pro_plan_annual.png) |
 
----
-
 ### Premium Plan
 
 **For power users who need everything**
@@ -33,9 +30,6 @@ The Premium Plan includes all Pro features plus advanced capabilities for compre
 
 | | |
 | ![Figure 3: Premium Plan Monthly](/assets/images/premium_plan_monthly.png) | ![Figure 4: Premium Plan Yearly](/assets/images/premium_plan_annual.png) |
-
-
----
 
 ## How to Subscribe
 
@@ -94,8 +88,6 @@ After successful plan switch you will see a success message below the plan cards
 
 ![Figure 8: Switch Plans Success](/assets/images/switch_subscription_success.png)
 
----
-
 ## Security & privacy notes
 
 - **Payment security:** Your payment information is encrypted and never stored in full by Greeksinsight.
@@ -104,7 +96,6 @@ After successful plan switch you will see a success message below the plan cards
 - **Refund policy:** Refunds follow our refund policy; contact support for details.
 - **Tax on purchase:** All the plans offered by Greekisnight are exlusive of taxes, the final amount will be presented on the payments page.
 
---
 ## Frequently Asked Questions
 
 **Can I upgrade my plan?**
@@ -122,8 +113,6 @@ No, as of now we don't offer any free trial.
 **What if I need help?**
 Our support team is here to help! Visit the Help section or contact us at contact@greeksinsight.com.
 
----
-
 ## Managing Your Subscription
 
 Once you're subscribed, you can manage your plan from your account settings:
@@ -132,9 +121,6 @@ Once you're subscribed, you can manage your plan from your account settings:
 2. Go to **UserIcon** on bottom left > **Manage Subscription**
 3. View your current plan, renewal date, and billing history
 4. Upgrade, downgrade, or cancel your subscription
-
-
----
 
 ## Need Help?
 

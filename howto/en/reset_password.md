@@ -15,10 +15,6 @@ Forgot your Greeksinsight password? No problem. This guide walks you through the
 - Make sure you have access to the email address associated with your account (you'll receive a password reset code there).
 - Allow a few minutes for the code email to arrive.
 
-[Screenshot: Password reset overview]
-
----
-
 ## Step 1: Request a password reset code
 
 ### 1.1 Go to the login page
@@ -50,8 +46,6 @@ The system will send a password reset code to the email address linked to your a
 - **Verify your email is correct** — If you're unsure, contact support to confirm your account email.
 - **Wait a few minutes** — Sometimes email takes a moment to arrive.
 - **Request a new code** — You can usually request another code after a short wait (typically 5–10 minutes).
-
----
 
 ## Step 2: Enter verification code and set new password
 
@@ -109,16 +103,11 @@ You should see a success message like:
 
 > "Your password has been reset successfully. You can now log in with your new password."
 
-
----
-
 ## Next steps
 
 1. **Log in with your new password** — Go to the login page and use your username (or email) and your new password.
 2. **Update your password manager** — If you use a password manager, save your new password there.
 3. **Log out from other devices** (optional) — For added security, go to **Settings** → **Active Sessions** or **Devices** and log out from any devices you don't recognize.
-
----
 
 ## Troubleshooting
 
@@ -147,8 +136,6 @@ You should see a success message like:
 - Try a different browser or device.
 - If problems continue, contact support.
 
----
-
 ## Security & privacy notes
 
 - **Never share your password reset code** — Greeksinsight staff will never ask for it.
@@ -156,13 +143,9 @@ You should see a success message like:
 - **Change password periodically** — Update your password every 3–6 months for better security.
 - **Review account activity** — After resetting, check your account settings for any unusual activity.
 
----
-
 ## If you need further help
 
 - **Contact support:** Reach out to contact@greeksinsight.com with your username and the issue you encountered.
 - **Visit the Help section:** Check the Help menu for additional guides and FAQs.
-
----
 
 [← Back to Howto Index](./index.md)

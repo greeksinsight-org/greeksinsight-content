@@ -94,6 +94,4 @@ Si los problemas continúan, contacta soporte con detalles (correo usado, hora d
 - **Teclado:** Todos los campos pueden completarse con navegación por teclado (Tab para avanzar; Enter para enviar cuando el botón está enfocado).
 - **Lectores de pantalla:** Los campos incluyen etiquetas accesibles — si detectas algún problema, repórtalo a soporte.
 
----
-
 [← Volver al Índice de Howto](./index.md)

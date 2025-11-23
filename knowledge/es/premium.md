@@ -16,12 +16,16 @@ El equilibrio entre las **primas de compra (ask)**, **venta (bid)** y el **flujo
 
 ## 2. Aplicación
 
+**Total Ponderada por el Interés Abierto**
+
+Este indicador representa el valor total en dólares vinculado a todas las posiciones abiertas en opciones, multiplicando la prima de cada strike (bid, ask o midpoint) por su interés abierto y el multiplicador del contrato. Al sumar todos los strikes se obtiene una cifra única que muestra cuánta exposición nocional tiene el mercado en toda la cadena de opciones. Es útil para identificar dónde se concentra el capital, medir el posicionamiento del mercado y estimar el impacto potencial de cobertura por parte de los dealers.
+
 - **Primas Bid:** Muestran órdenes pasivas, operadores que esperan mejores precios.  
 - **Primas Ask:** Reflejan compras agresivas, dispuestos a pagar más por exposición.  
-- **Prima Total** = Σ(Primas Calls + Primas Puts) en todos los strikes y vencimientos.
+- **Prima Total (Midpoint)** = Σ(Primas Calls + Primas Puts) en todos los strikes.
 
-**Relación Put/Call (Primas):**
-> **PCR (Prima) = Prima Total de Puts / Prima Total de Calls**
+**Relación Put/Call Volumen:**
+> **PCR = Volumen Total de Puts / Volumen Total de Calls**
 
 Interpretación:
 - Ratio < 1 → Sesgo alcista (mayor demanda de calls).  
@@ -31,7 +35,7 @@ Interpretación:
 
 - Las primas reflejan **flujos reales de capital**, no solo volumen de contratos.  
 - Lado ask dominante = **compradores agresivos**; lado bid = **vendedores cautelosos**.  
-- El PCR basado en primas da una lectura más precisa del **sentimiento institucional**.  
+- El PCR basado en volumen da una lectura más precisa del **sentimiento institucional**.  
 - Combinado con volumen e IV, permite anticipar **cambios en la demanda de cobertura**.
 
 [← Ir a Indice](./index.md)

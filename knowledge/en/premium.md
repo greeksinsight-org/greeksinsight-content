@@ -18,16 +18,20 @@ The **Put/Call Volume Ratio**, when integrated with premium flows, adds deeper i
 
 ## 2. Application
 
+**Premium Weighted by Open Interest**
+
+This metric represents the total dollar value tied to all open option positions by multiplying each strike’s premium (bid, ask, or midpoint) by its open interest and the contract multiplier. Summing across all strikes gives a single figure showing how much notional exposure the market has in the entire option chain. It is useful for identifying where capital is concentrated, measuring market positioning, and estimating the potential hedging impact from dealers.
+
 - **Bid Premiums**: Indicate passive limit orders — traders waiting for favorable prices.  
 - **Ask Premiums**: Show aggressive buying — traders paying up for exposure.  
-- **Total Premium** = Σ(Call Premiums + Put Premiums) across strikes and expirations.
+- **Total Premium (Midpoint)** = Σ(Call Premiums + Put Premiums) across strikes.
 
-The **Put/Call Premium Ratio** can be computed as:
-> **PCR (Premium) = Total Put Premium / Total Call Premium**
+The **Put/Call Volume Ratio** can be computed as:
+> **PCR = Total Put Volume / Total Call Volume**
 
 Interpretation:
-- Ratio < 1 → More call premium demand (bullish tone).  
-- Ratio > 1 → More put premium demand (bearish tone).  
+- Ratio < 1 → More call demand (bullish tone).  
+- Ratio > 1 → More put demand (bearish tone).  
 
 Combining volume and premium ratios provides a **multi-layered sentiment model**, revealing whether traders are **actively buying or selling** exposure.
 
@@ -35,7 +39,7 @@ Combining volume and premium ratios provides a **multi-layered sentiment model**
 
 - Premiums reflect **real money flows** — not just contract counts.  
 - Ask dominance = aggressiveness; bid dominance = caution.  
-- The Put/Call Premium Ratio enhances classic volume ratios by capturing **notional weight**.  
+- The Put/Call Ratio enhances classic volume ratios by capturing **notional weight**.  
 - Useful for identifying **institutional sentiment shifts** and **volatility hedging demand**.
 
 [← Back to Help Index](./index.md)
