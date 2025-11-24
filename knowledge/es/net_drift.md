@@ -9,26 +9,19 @@ permalink: /knowledge/es/net_drift
 
 ## 1. Introducción
 
-El **Net Drift Histórico** mide cómo evolucionan las **primas de las opciones** con el tiempo, especialmente las **fuera del dinero (OTM)**.  
-Sirve para evaluar si el mercado **sobrevalora o subvalora el riesgo**, mostrando qué lado (compradores o vendedores de opciones) tiene ventaja estadística.
+El **Net Drift Histórico** mide cómo evolucionan las **primas de las opciones** con el tiempo y **ponderado por el Interés Abierto (OI)**, especialmente las **fuera del dinero (OTM)**, sirve para evaluar si el mercado **sobrevalora o subvalora el riesgo**, mostrando qué lado (compradores o vendedores de opciones) tiene ventaja estadística.
 
 ![Figura 1: Comportamiento Histórico de las Primas](/assets/images/net_drift_1.png)
 
 ## 2. Aplicación
 
-### 2.1. Cómo se mide el Drift
-
-> **Net Drift = Promedio de Decaimiento (Theta) – Promedio de Expansión (Volatilidad)**
-
-Si el decaimiento promedio supera las pérdidas durante picos de volatilidad, el **drift es positivo**, beneficiando a los vendedores de primas.
-
-### 2.2. Patrones Comunes
+### 2.1. Patrones Comunes
 
 - Las **puts OTM** suelen tener **drift negativo**, por su alta sensibilidad a shocks de volatilidad.  
 - Las **calls OTM** muestran drift más estable o neutral.  
 - En índices como SPX, históricamente las puts están **sobrevaloradas**, reflejando el costo del “seguro” del mercado.
 
-### 2.3. Implicaciones Estratégicas
+### 2.2. Implicaciones Estratégicas
 
 - Drift positivo → estrategias de **venta de volatilidad** son más rentables.  
 - Drift negativo → conviene **comprar volatilidad** o proteger posiciones.  
@@ -36,9 +29,9 @@ Si el decaimiento promedio supera las pérdidas durante picos de volatilidad, el
 
 ## 3. Puntos Clave
 
-- El Net Drift refleja la **ventaja estadística** de un lado del mercado.  
+- El Net Drift ponderado por el Interés Abierto refleja la **ventaja estadística** de un lado del mercado.  
 - Las puts tienden a estar **sobrevaloradas** por demanda de cobertura.  
 - Comprender la deriva ayuda a **elegir estrategias de volatilidad óptimas**.  
-- Combinado con IV Rank, permite afinar el timing en ventas o compras de opciones.
+- Combinado con IV, permite afinar el timing en ventas o compras de opciones.
 
 [← Ir a Indice](./index.md)
