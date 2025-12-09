@@ -4,7 +4,6 @@ title: How to Subscribe to a Plan
 lang: es
 permalink: /howto/es/plans
 ---
-# Cómo
 
 # Planes de Suscripción
 
@@ -23,8 +22,6 @@ El Plan Pro te da acceso a herramientas de nivel profesional para análisis avan
 | | |
 | ![Figura 1: Plan Pro Mensual](/assets/images/pro_plan_monthly.png) | ![Figura 2: Plan Pro Anual](/assets/images/pro_plan_annual.png) |
 
----
-
 ### Plan Premium
 
 **Para usuarios avanzados que necesitan todo**
@@ -33,8 +30,6 @@ El Plan Premium incluye todas las características del Plan Pro más capacidades
 
 | | |
 | ![Figura 3: Plan Premium Mensual](/assets/images/premium_plan_monthly.png) | ![Figura 4: Plan Premium Anual](/assets/images/premium_plan_annual.png) |
-
----
 
 ## Cómo Suscribirse
 
@@ -93,8 +88,6 @@ Después de un cambio exitoso de plan, verás un mensaje de éxito debajo de las
 
 ![Figura 8: Cambio de Plan Exitoso](/assets/images/switch_subscription_success.png)
 
----
-
 ## Notas de Seguridad y Privacidad
 
 - **Seguridad de pago:** Tu información de pago está encriptada y nunca se almacena completamente en Greeksinsight.
@@ -102,8 +95,6 @@ Después de un cambio exitoso de plan, verás un mensaje de éxito debajo de las
 - **Cancelación = sin cargos:** Después de cancelar, no se harán más cargos automáticos después de tu fecha efectiva de cancelación.
 - **Política de reembolso:** Los reembolsos siguen nuestra política de reembolsos; contacta soporte para más detalles.
 - **Impuestos:** Todos los planes ofrecidos por Greeksinsight son exclusivos de impuestos; el monto final se mostrará en la página de pagos.
-
---
 
 ## Preguntas Frecuentes
 
@@ -122,8 +113,6 @@ No, actualmente no ofrecemos prueba gratuita.
 **¿Qué pasa si necesito ayuda?**  
 ¡Nuestro equipo de soporte está aquí para ayudarte! Visita la sección de Ayuda o contáctanos en contact@greeksinsight.com.
 
----
-
 ## Gestionar tu Suscripción
 
 Una vez suscrito, puedes gestionar tu plan desde la configuración de tu cuenta:
@@ -132,8 +121,6 @@ Una vez suscrito, puedes gestionar tu plan desde la configuración de tu cuenta:
 2. Ve al **Icono de Usuario** en la parte inferior izquierda > **Manage Subscription**  
 3. Revisa tu plan actual, fecha de renovación e historial de facturación  
 4. Mejora, reduce o cancela tu suscripción  
-
----
 
 ## ¿Necesitas Ayuda?
 

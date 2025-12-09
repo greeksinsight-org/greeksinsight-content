@@ -15,9 +15,6 @@ This guide walks you through accessing your user details, viewing your subscript
 - Have your payment method details handy if you plan to update billing information.
 - If canceling, note that you can continue using Greeksinsight until your current subscription period ends.
 
-
----
-
 ## Step 1: Navigate to user details
 
 ### 1.1 Access your profile
@@ -35,7 +32,6 @@ From the main dashboard or any page, look for your **profile icon** located in t
 
 ![Figure 1: User Icon](/assets/images/user_profile.png)
 
----
 
 ## Step 2: Access the Manage Subscription section
 
@@ -46,7 +42,6 @@ On your User Details/Account Settings page, you will see a button labeled:
 
 Click this button to proceed to the Subscription Management page.
 
----
 
 ## Step 3: View your subscription details
 
@@ -87,16 +82,11 @@ Once you click "Manage Subscription," you will see a detailed view of your curre
 - **Pending final cancellation:** You have access until the date shown. After that date, you will no longer have access.
 - **Expired:** Your subscription has ended. You will need to renew to regain access.
 
----
-
 ## Step 4: Upgrade your plan
 
 ### 4.1 Locate the "Upgrade Plan" button
 
 On the Subscription Management page, you will see a button to upgrate your plan, which will navigate you to the Plans section to updgrade/downgrade/switch among the vailable plans.
-
-
----
 
 ## Step 5: Cancel your subscription
 
@@ -132,8 +122,6 @@ Click **"Yes, Cancel"** in the modal to finalize the cancellation.
 - You will see the **cancellation effective date** (when your access ends).
 - You can continue using Greeksinsight with all features until that date.
 - After the date, you will lose access unless you renew.
-
----
 
 ## Step 6: Update your payment method
 
@@ -176,11 +164,6 @@ Click **"Save"**, **"Update Payment Method"**, or **"Confirm"** to finalize the 
 - Your new payment method will be used for the next automatic charge.
 - You will receive a confirmation email.
 
-
----
-
-
-
 ## Common scenarios
 
 ### "I want to upgrade to Premium"
@@ -209,8 +192,6 @@ Click **"Save"**, **"Update Payment Method"**, or **"Confirm"** to finalize the 
 3. Enter your new card details.
 4. Click **"Save"**.
 5. The new card will be used for future charges.
-
----
 
 ## Troubleshooting
 
@@ -241,16 +222,12 @@ Click **"Save"**, **"Update Payment Method"**, or **"Confirm"** to finalize the 
 - Check the billing date and amount match your plan.
 - If there's an error, contact support with your order details.
 
----
-
 ## Security & privacy notes
 
 - **Payment security:** Your payment information is encrypted and never stored in full by Greeksinsight.
 - **Authorized charges:** Only charges authorized by your subscription plan will appear on your statement.
 - **Cancellation = no charges:** After cancellation, no further automatic charges will occur after your cancellation effective date.
 - **Refund policy:** Refunds follow our refund policy; contact support for details.
-
----
 
 ## Support & FAQs
 
@@ -269,13 +246,9 @@ Refunds depend on our refund policy. Contact support at contact@greeksinsight.co
 **What if I accidentally canceled?**
 You can reactivate your subscription from the **Manage Subscription** page if it's still within your cancellation grace period. After that, you'll need to subscribe again.
 
----
-
 ## Need help?
 
 - **Contact support:** Reach out to contact@greeksinsight.com with details about your issue.
 - **Visit the Help section:** Browse other guides and FAQs.
-
----
 
 [← Back to Howto Index](./index.md)

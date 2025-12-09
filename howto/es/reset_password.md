@@ -15,10 +15,6 @@ permalink: /howto/es/reset_password
 - Asegúrate de tener acceso al correo electrónico asociado a tu cuenta (ahí recibirás el código de restablecimiento).
 - Permite unos minutos para que el correo con el código llegue.
 
-[Screenshot: Descripción general del restablecimiento de contraseña]
-
----
-
 ## Paso 1: Solicitar un código de restablecimiento
 
 ### 1.1 Ve a la página de inicio de sesión
@@ -50,8 +46,6 @@ El sistema enviará un código de restablecimiento de contraseña al correo vinc
 - **Verifica que el correo sea correcto** — Si dudas, contacta soporte.
 - **Espera unos minutos** — A veces tarda.
 - **Solicita un nuevo código** — Usualmente puedes pedir otro luego de unos minutos (5–10).
-
----
 
 ## Paso 2: Ingresa el código de verificación y establece tu nueva contraseña
 
@@ -108,15 +102,11 @@ Deberías ver un mensaje como:
 
 > "Your password has been reset successfully. You can now log in with your new password."
 
----
-
 ## Próximos pasos
 
 1. **Inicia sesión con tu nueva contraseña** — Ve a la página de login.
 2. **Actualiza tu gestor de contraseñas**.
 3. **Cierra sesión en otros dispositivos** (opcional) — Desde **Settings → Active Sessions**.
-
----
 
 ## Solución de problemas
 
@@ -143,8 +133,6 @@ Revisa que tenga:
 - Borra caché/cookies.
 - Prueba otro navegador o dispositivo.
 
----
-
 ## Notas de seguridad y privacidad
 
 - **Nunca compartas tu código de restablecimiento.**
@@ -152,13 +140,9 @@ Revisa que tenga:
 - **Cambia tu contraseña periódicamente.**
 - **Revisa actividad reciente** después de restablecerla.
 
----
-
 ## Si necesitas ayuda adicional
 
 - **Soporte:** contact@greeksinsight.com  
 - **Ayuda:** Consulta la sección de Help en el sitio.
-
----
 
 [← Volver al Índice de Howto](./index.md)

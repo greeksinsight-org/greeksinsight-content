@@ -9,8 +9,7 @@ permalink: /knowledge/en/net_drift
 
 ## 1. Introduction
 
-**Historical Net Drift** measures how **option premiums evolve over time** relative to their strike distance (moneyness).  
-By analyzing out-of-the-money (OTM) calls and puts, traders can estimate **how consistently option sellers or buyers profit** from premium decay or volatility events.
+**Historical Net Drift** measures how **option premiums evolve over time** and **weighted by Open Interest.** By analyzing out-of-the-money (OTM) calls and puts, traders can estimate **how consistently option sellers or buyers profit** from premium decay or volatility events.
 
 It’s a quantitative view of **premium bias** — whether the market systematically overprices risk on one side (calls or puts).
 
@@ -18,17 +17,13 @@ It’s a quantitative view of **premium bias** — whether the market systematic
 
 ## 2. Application
 
-### 2.1. Measuring Net Drift
-
-If option sellers (dealers or systematic traders) collect more in theta decay than they lose during volatility events, **the drift is positive** — favoring premium-selling strategies.
-
-### 2.2. Historical Patterns
+### 2.1. Historical Patterns
 
 - **OTM Puts** often have **negative drift** because volatility spikes disproportionately affect downside protection.  
 - **OTM Calls** tend to have **small or neutral drift** in indices due to mean-reverting markets.  
 - In equity indices (like SPX), long-term studies show **put premiums are overpriced** on average — a result of constant demand for tail-risk protection.
 
-### 2.3. Strategy Implications
+### 2.2. Strategy Implications
 
 Understanding net drift helps design systematic strategies:
 - **Positive drift** → Favor short volatility setups (credit spreads, iron condors).  
@@ -37,9 +32,9 @@ Understanding net drift helps design systematic strategies:
 
 ## 3. Key Takeaways
 
-- Historical Net Drift shows **long-term edge** between buyers and sellers of volatility.  
+- Historical Net Drift weighted by Open Interest shows **long-term edge** between buyers and sellers of volatility.  
 - OTM puts generally carry **negative expectancy** due to risk demand.  
 - Premium decay analysis reveals when the market **overpays for protection**.  
-- Combining Net Drift with **IV Rank** improves volatility timing decisions.
+- Combining Net Drift with **IV** improves volatility timing decisions.
 
 [← Back to Help Index](./index.md)
