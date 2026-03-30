@@ -353,7 +353,121 @@ table {
   text-shadow: 0 0 12px var(--neon-purple-light, #e0aaff), 0 0 28px var(--neon-purple);
 }
 
-/* Hide on mobile for clean header */
+/* === RESPONSIVE BREAKPOINTS === */
+
+/* Tablet (≤ 900px) */
+@media (max-width: 900px) {
+  body {
+    max-width: 90%;
+    margin: 1.5rem auto;
+  }
+
+  main {
+    max-width: 90%;
+  }
+
+  header nav {
+    gap: 1rem;
+
+    a {
+      font-size: 1rem;
+      padding: 0.4rem 0.6rem;
+    }
+  }
+}
+
+/* Mobile (≤ 600px) */
+@media (max-width: 600px) {
+  body {
+    max-width: 95%;
+    margin: 0.8rem auto;
+    padding: 0 0.25rem;
+  }
+
+  main {
+    max-width: 95%;
+    padding: 0 0.25rem;
+  }
+
+  header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    border-radius: 0.75rem;
+    position: relative; /* don't sticky on small screens to save space */
+  }
+
+  header nav {
+    gap: 0.4rem;
+    flex-wrap: wrap;
+
+    a {
+      font-size: 0.82rem;
+      padding: 0.3rem 0.45rem;
+    }
+
+    a.active {
+      padding: 0.3rem 0.7rem;
+    }
+  }
+
+  .lang-toggle {
+    gap: 0.5rem;
+  }
+
+  .brandName {
+    margin-top: 0.6rem;
+    gap: 0.1rem;
+  }
+
+  .brandName .brand-logo {
+    width: 32px;
+  }
+
+  .brandName span {
+    display: none; /* hide text, keep logo */
+  }
+
+  .glitch {
+    font-size: 1.6rem;
+  }
+
+  .greek-bg span {
+    font-size: 7rem;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  /* Make tables horizontally scrollable */
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  main img {
+    margin: 1rem auto;
+  }
+}
+
+/* Hide brand text on mobile (legacy breakpoint kept) */
 @media (max-width: 768px) {
   .brandName span {
     display: none;
